@@ -1,0 +1,3 @@
+lcd /data/appdata/ftp/bank/w_s_sep_info/
+cd /MAS001/CYE/OUT/OCBC/
+put SEPFull.dtl

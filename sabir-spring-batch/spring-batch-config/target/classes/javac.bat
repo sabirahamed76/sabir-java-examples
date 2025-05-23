@@ -1,0 +1,1 @@
+cmd.exe /X /C "D:\workstation\apps\jdk8\bin\javac @D:/workstation/workspace/workspace-java/sabir-spring-batch/spring-batch-config/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler6336899238075642259arguments"
