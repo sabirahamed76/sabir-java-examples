@@ -1,13 +1,12 @@
-package com.javatechie.spring.controller;
+package com.home.sabir.spring.controller;
 
-import com.javatechie.spring.LazyLoadingBean;
-import com.javatechie.spring.TestBean;
-import com.javatechie.spring.config.MailProps;
-import com.javatechie.spring.entity.Student;
-import com.javatechie.spring.exception.StudentNotFoundException;
-import com.javatechie.spring.service.StudentService;
+import com.home.sabir.spring.bean.LazyLoadingBean;
+import com.home.sabir.spring.bean.TestBean;
+import com.home.sabir.spring.config.MailProps;
+import com.home.sabir.spring.entity.Student;
+import com.home.sabir.spring.exception.StudentNotFoundException;
+import com.home.sabir.spring.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;

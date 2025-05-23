@@ -1,7 +1,6 @@
-package com.javatechie.spring.service;
+package com.home.sabir.spring.service;
 
-import com.javatechie.spring.entity.Student;
-import org.springframework.context.annotation.Primary;
+import com.home.sabir.spring.entity.Student;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

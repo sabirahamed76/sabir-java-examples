@@ -1,4 +1,4 @@
-package com.javatechie.spring;
+package com.home.sabir.spring.bean;
 
 import org.springframework.stereotype.Component;
 

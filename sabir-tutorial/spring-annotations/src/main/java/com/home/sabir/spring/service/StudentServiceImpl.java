@@ -1,13 +1,10 @@
-package com.javatechie.spring.service;
+package com.home.sabir.spring.service;
 
-import com.javatechie.spring.entity.Student;
-import com.javatechie.spring.repository.StudentRepository;
+import com.home.sabir.spring.entity.Student;
+import com.home.sabir.spring.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;

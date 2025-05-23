@@ -1,4 +1,4 @@
-package com.javatechie.spring.exception;
+package com.home.sabir.spring.exception;
 
 public class StudentNotFoundException extends Exception{
 

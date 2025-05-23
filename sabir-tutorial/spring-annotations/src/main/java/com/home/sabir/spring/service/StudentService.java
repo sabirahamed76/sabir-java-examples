@@ -1,6 +1,6 @@
-package com.javatechie.spring.service;
+package com.home.sabir.spring.service;
 
-import com.javatechie.spring.entity.Student;
+import com.home.sabir.spring.entity.Student;
 
 import java.util.List;
 import java.util.Optional;

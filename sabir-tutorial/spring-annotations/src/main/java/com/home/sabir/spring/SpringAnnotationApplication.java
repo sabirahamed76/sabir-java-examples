@@ -1,7 +1,7 @@
-package com.javatechie.spring;
+package com.home.sabir.spring;
 
-import com.javatechie.spring.entity.Student;
-import com.javatechie.spring.repository.StudentRepository;
+import com.home.sabir.spring.entity.Student;
+import com.home.sabir.spring.repository.StudentRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,11 +10,11 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @SpringBootApplication
-public class AnnotationCheatsheetApplication {
+public class SpringAnnotationApplication {
 
     private StudentRepository studentRepository;
 
-    public AnnotationCheatsheetApplication(StudentRepository studentRepository) {
+    public SpringAnnotationApplication(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
     }
 
@@ -29,7 +29,7 @@ public class AnnotationCheatsheetApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(AnnotationCheatsheetApplication.class, args);
+        SpringApplication.run(SpringAnnotationApplication.class, args);
     }
 
 }

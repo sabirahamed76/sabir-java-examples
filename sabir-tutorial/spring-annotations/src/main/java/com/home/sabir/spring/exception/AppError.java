@@ -1,4 +1,4 @@
-package com.javatechie.spring;
+package com.home.sabir.spring.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

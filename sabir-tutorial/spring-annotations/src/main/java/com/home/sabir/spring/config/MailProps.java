@@ -1,4 +1,4 @@
-package com.javatechie.spring.config;
+package com.home.sabir.spring.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

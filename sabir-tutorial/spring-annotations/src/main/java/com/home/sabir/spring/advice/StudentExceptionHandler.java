@@ -1,7 +1,7 @@
-package com.javatechie.spring.advice;
+package com.home.sabir.spring.advice;
 
-import com.javatechie.spring.AppError;
-import com.javatechie.spring.exception.StudentNotFoundException;
+import com.home.sabir.spring.exception.AppError;
+import com.home.sabir.spring.exception.StudentNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

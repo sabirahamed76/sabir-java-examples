@@ -1,4 +1,4 @@
-package com.javatechie.spring;
+package com.home.sabir.spring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

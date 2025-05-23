@@ -1,4 +1,4 @@
-package com.javatechie.spring.entity;
+package com.home.sabir.spring.entity;
 
 
 import lombok.AllArgsConstructor;

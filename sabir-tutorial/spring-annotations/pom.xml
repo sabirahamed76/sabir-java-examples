@@ -8,11 +8,11 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatechie</groupId>
-	<artifactId>annotation-cheatsheet</artifactId>
+	<groupId>com.home.sabir</groupId>
+	<artifactId>sabir-spring-annotation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>annotation-cheatsheet</name>
-	<description>Spring, Spring Boot Annotations Cheat sheet</description>
+	<name>sabir-spring-annotation</name>
+	<description>Spring, Spring Boot Annotations Examples</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
