@@ -8,11 +8,11 @@
 		<version>2.2.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javainuse</groupId>
-	<artifactId>spring-boot-security</artifactId>
+	<groupId>com.home.sabir</groupId>
+	<artifactId>spring-boot-security-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-security</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-security-jwt</name>
+	<description>Demo project for Spring Boot security JWT</description>
 
 	<properties>
 		<java.version>1.8</java.version>
