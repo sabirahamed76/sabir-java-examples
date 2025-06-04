@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        
+        <File name="LogToFileFull" fileName="/data/app/batch/java/logs/spring_batch_common_full.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        
+        <RollingFile name="LogToFile" filePattern="/data/app/batch/java/logs/spring_batch_common_%d{yyyy-MM-dd}.log" immediateFlush="true"> 
+	       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+	
+	       <Policies>
+	            <!-- <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+	            <SizeBasedTriggeringPolicy size="32 MB" /> -->
+	            <OnStartupTriggeringPolicy/>
+	       </Policies>
+	    </RollingFile>
+    </Appenders>
+   
+    <Loggers>
+        <Logger name="com.home.sabir.batch" level="debug" additivity="false">
+             <AppenderRef ref="LogToConsole"/>
+             <AppenderRef ref="LogToFile"/>            
+             <AppenderRef ref="LogToFileFull"/> 
+        </Logger>
+        <Logger name="org.springframework" level="error" additivity="false">
+            <AppenderRef ref="LogToConsole"/>                   
+             <AppenderRef ref="LogToFileFull"/> 
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="LogToFileFull"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Root>
+    </Loggers>
+</Configuration>

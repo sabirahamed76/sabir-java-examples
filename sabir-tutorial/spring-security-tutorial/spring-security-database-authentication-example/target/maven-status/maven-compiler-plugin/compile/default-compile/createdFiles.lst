@@ -1,0 +1,6 @@
+net\javaguides\springsecurity\config\WebSecurityConfig.class
+net\javaguides\springsecurity\controller\HomeController.class
+net\javaguides\springsecurity\Application.class
+net\javaguides\springsecurity\config\UserDetailsServiceImpl.class
+net\javaguides\springsecurity\repository\UserRepository.class
+net\javaguides\springsecurity\model\User.class

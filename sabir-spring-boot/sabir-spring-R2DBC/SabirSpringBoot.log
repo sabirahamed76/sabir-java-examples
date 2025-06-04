@@ -1,0 +1,375 @@
+2025-06-03 18:18:51.252  INFO 25236 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 25236 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:18:51.257  INFO 25236 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:18:51.311  INFO 25236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:18:51.312  INFO 25236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:18:52.773  INFO 25236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-06-03 18:18:52.774  INFO 25236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2025-06-03 18:18:52.896 ERROR 25236 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.dao.InvalidDataAccessApiUsageException: Reactive Repositories are not supported by JPA. Offending repository is com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository!
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:382) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:104) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:145) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:59) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.home.sabir.springboot.SpringData.SpringDataJpaDemoApplication.main(SpringDataJpaDemoApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+
+2025-06-03 18:21:43.175  INFO 15968 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 15968 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:21:43.178  INFO 15968 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:21:43.238  INFO 15968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:21:43.238  INFO 15968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:21:44.773  INFO 15968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14aa2128] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:21:45.158  INFO 15968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:21:45.188  INFO 15968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:21:45.189  INFO 15968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:21:45.299  INFO 15968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:21:45.299 DEBUG 15968 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:21:45.299  INFO 15968 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2061 ms
+2025-06-03 18:21:45.550  INFO 15968 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:21:45.918  WARN 15968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl': Unsatisfied dependency expressed through field 'studentR2DBCRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-03 18:21:45.920  INFO 15968 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:21:45.930  INFO 15968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:21:45.953  INFO 15968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:21:46.179 ERROR 15968 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentR2DBCRepository in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:22:38.163  INFO 34744 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 34744 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:22:38.166  INFO 34744 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:22:38.237  INFO 34744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:22:38.237  INFO 34744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:22:40.362  INFO 34744 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$900d9be8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:22:40.710  INFO 26012 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 26012 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:22:40.715  INFO 26012 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:22:40.817  INFO 26012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:22:40.817  INFO 26012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:22:41.023  INFO 34744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:22:41.120  INFO 34744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:22:41.120  INFO 34744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:22:41.317  INFO 34744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:22:41.318 DEBUG 34744 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:22:41.318  INFO 34744 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3081 ms
+2025-06-03 18:22:41.696  INFO 34744 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:22:42.193  WARN 34744 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl': Unsatisfied dependency expressed through field 'studentR2DBCRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-03 18:22:42.196  INFO 34744 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:22:42.219  INFO 34744 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:22:42.246  INFO 34744 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:22:42.575 ERROR 34744 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentR2DBCRepository in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:22:42.918  INFO 26012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c4ee1b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:22:43.287  INFO 26012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:22:43.321  INFO 26012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:22:43.321  INFO 26012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:22:43.426  INFO 26012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:22:43.426 DEBUG 26012 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:22:43.426  INFO 26012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2609 ms
+2025-06-03 18:22:43.683  INFO 26012 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:22:44.144  WARN 26012 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl': Unsatisfied dependency expressed through field 'studentR2DBCRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-03 18:22:44.145  INFO 26012 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:22:44.153  INFO 26012 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:22:44.173  INFO 26012 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:22:44.391 ERROR 26012 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentR2DBCRepository in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:25:46.625  INFO 29692 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 29692 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:25:46.627  INFO 29692 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:25:46.685  INFO 29692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:25:46.686  INFO 29692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:25:48.070  INFO 29692 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6683002c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:25:48.409  INFO 29692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:25:48.433  INFO 29692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:25:48.434  INFO 29692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:25:48.534  INFO 29692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:25:48.534 DEBUG 29692 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:25:48.534  INFO 29692 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1848 ms
+2025-06-03 18:25:48.770  INFO 29692 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:25:49.098  WARN 29692 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl': Unsatisfied dependency expressed through field 'studentR2DBCRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-03 18:25:49.099  INFO 29692 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:25:49.107  INFO 29692 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:25:49.126  INFO 29692 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:25:49.327 ERROR 29692 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentR2DBCRepository in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:28:48.532  INFO 34288 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 34288 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:28:48.533  INFO 34288 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:28:48.590  INFO 34288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:28:48.590  INFO 34288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:28:49.966  INFO 34288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4cf3a76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:28:50.323  INFO 34288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:28:50.350  INFO 34288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:28:50.350  INFO 34288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:28:50.449  INFO 34288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:28:50.450 DEBUG 34288 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:28:50.450  INFO 34288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1860 ms
+2025-06-03 18:28:50.685  INFO 34288 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:28:51.000  WARN 34288 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl': Unsatisfied dependency expressed through field 'studentR2DBCRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-03 18:28:51.001  INFO 34288 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:28:51.009  INFO 34288 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:28:51.027  INFO 34288 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:28:51.230 ERROR 34288 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentR2DBCRepository in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:36:45.361  INFO 26776 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 26776 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:36:45.363  INFO 26776 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:36:45.423  INFO 26776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:36:45.423  INFO 26776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:36:46.926  INFO 26776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbdd9890] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:36:47.264  INFO 26776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:36:47.290  INFO 26776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:36:47.291  INFO 26776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:36:47.386  INFO 26776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:36:47.387 DEBUG 26776 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:36:47.387  INFO 26776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1964 ms
+2025-06-03 18:36:47.631  INFO 26776 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:36:47.970  WARN 26776 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl' defined in file [D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes\com\home\sabir\springboot\SpringData\service\impl\StudentR2DBCServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 18:36:47.971  INFO 26776 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:36:47.980  INFO 26776 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:36:48.004  INFO 26776 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:36:48.199 ERROR 26776 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:37:17.975  INFO 33464 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 33464 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:37:17.980  INFO 33464 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:37:18.035  INFO 33464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:37:18.036  INFO 33464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:37:19.623  INFO 33464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80ff7c36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:37:20.009  INFO 33464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:37:20.041  INFO 33464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:37:20.041  INFO 33464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:37:20.140  INFO 33464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:37:20.140 DEBUG 33464 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:37:20.140  INFO 33464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2104 ms
+2025-06-03 18:37:20.356  INFO 33464 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:37:20.697  WARN 33464 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl' defined in file [D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes\com\home\sabir\springboot\SpringData\service\impl\StudentR2DBCServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 18:37:20.699  INFO 33464 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:37:20.707  INFO 33464 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:37:20.727  INFO 33464 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:37:20.924 ERROR 33464 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:38:24.996  INFO 28444 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 28444 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:38:24.999  INFO 28444 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:38:25.053  INFO 28444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:38:25.053  INFO 28444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:38:26.461  INFO 28444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc81313d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-03 18:38:26.817  INFO 28444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 18:38:26.848  INFO 28444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 18:38:26.848  INFO 28444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 18:38:26.949  INFO 28444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 18:38:26.950 DEBUG 28444 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 18:38:26.950  INFO 28444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1897 ms
+2025-06-03 18:38:27.157  INFO 28444 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-06-03 18:38:27.481  WARN 28444 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCController': Unsatisfied dependency expressed through field 'studentR2DBCService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentR2DBCServiceImpl' defined in file [D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes\com\home\sabir\springboot\SpringData\service\impl\StudentR2DBCServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 18:38:27.482  INFO 28444 --- [restartedMain] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2025-06-03 18:38:27.493  INFO 28444 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 18:38:27.513  INFO 28444 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 18:38:27.734 ERROR 28444 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.home.sabir.springboot.SpringData.service.impl.StudentR2DBCServiceImpl required a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.home.sabir.springboot.SpringData.repository.StudentR2DBCRepository' in your configuration.
+
+2025-06-03 18:40:58.158  INFO 24204 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : Starting SpringDataJpaDemoApplication on SABIR-HOME with PID 24204 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\sabir-spring-R2DBC)
+2025-06-03 18:40:58.160  INFO 24204 --- [restartedMain] c.h.s.s.S.SpringDataJpaDemoApplication   : No active profile set, falling back to default profiles: default
+2025-06-03 18:40:58.209  INFO 24204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 18:40:58.210  INFO 24204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 18:40:58.369  WARN 24204 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.home.sabir.springboot.SpringData.SpringDataJpaDemoApplication]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: class path resource [org/springframework/data/r2dbc/repository/config/R2dbcRepositoriesRegistrar.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+2025-06-03 18:40:58.659 ERROR 24204 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.home.sabir.springboot.SpringData.SpringDataJpaDemoApplication]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: class path resource [org/springframework/data/r2dbc/repository/config/R2dbcRepositoriesRegistrar.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.home.sabir.springboot.SpringData.SpringDataJpaDemoApplication.main(SpringDataJpaDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: class path resource [org/springframework/data/r2dbc/repository/config/R2dbcRepositoriesRegistrar.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:57) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:682) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1074) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1055) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:538) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:511) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:302) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:184) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:166) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:152) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:273) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:54) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 32 common frames omitted
+

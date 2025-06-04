@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: DEPARTMENT-SERVICE #Name of the Service
+  config:
+    import: "optional:configserver:http://localhost:8050" #Config Server location
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST}/${DB_NAME}?useSSL=false
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    hikari:
+      initialization-fail-timeout: 0
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  instance:
+    hostname: localhost

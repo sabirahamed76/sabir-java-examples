@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CART-SERVICE
+  profiles:
+    active: native
+  config:
+    import: 'optional:configserver:http://localhost:8050' #Config Server location

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: DEPARTMENT-SERVICE #Name of the Service
+  config:
+    import: "optional:configserver:http://localhost:8050" #Config Server location
+
+eureka:
+  instance:
+    hostname: localhost

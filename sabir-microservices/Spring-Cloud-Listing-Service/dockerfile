@@ -1,0 +1,9 @@
+FROM openjdk:17
+
+ARG JAR_FILE=target/*.jar
+
+COPY ${JAR_FILE} Spring-Cloud-API-Gateway.jar
+
+ENTRYPOINT ["java", "-jar", "/Spring-Cloud-API-Gateway.jar" ]
+
+EXPOSE 8060

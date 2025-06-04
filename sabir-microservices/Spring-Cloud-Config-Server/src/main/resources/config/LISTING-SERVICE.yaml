@@ -1,0 +1,33 @@
+server:
+  address: 0.0.0.0
+  port: 8086
+
+#To Register with Service Registry
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# for Zipkin
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+ 
+
+#For Logging
+logging:
+  file:
+    name: listing-service.log
+  pattern:
+    correlation: "[${spring.application.name:},%X{traceId:-},%X{spanId:-}] "
+    include-application-name: true 
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    com.home.sabir: DEBUG
+    io.micrometer.tracing: DEBUG
+    com:
+      netflix:
+        eureka: DEBUG
+        discovery: DEBUG

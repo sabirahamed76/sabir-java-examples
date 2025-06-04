@@ -1,0 +1,208 @@
+
+=============================================
+Docker General Management Commands
+=============================================
+
+$ docker --version										# Show the version of the local Docker installation:
+
+$ docker info											# Display information about the local docker system:
+
+$ docker run -d -p 80:80 docker/getting-started			# To run getting-started image in port 80
+
+$ docker build -t welcome-to-docker .					# To build the project in current directory based on docker file
+
+$ docker images 										# list all images
+
+$ docker rmi <imageId>									# To delete the image
+
+$ docker inspect <imageId/containerId>					# inspect container or image
+
+$ docker  ps -a											# See all the containers, both running and non-running:
+		
+$ docker  create -it [image]							# Create an interactive container with pseudo-TTY:
+
+$ docker  rename [container] [new-name]					# Rename an existing container:
+
+$ docker  rm [container]								# Delete a container (if it is not running):
+
+$ docker  rm -f [container]								# Forcefully remove a container, even if it is running:
+
+$ docker  logs [container]								# View logs for a running container:
+
+$ docker  logs -f --until=[interval] [container]		# Retrieve logs created before a specific point in time:
+
+$ docker  login											# Login of a Docker registry:
+
+$ docker  logout										# Log out of a Docker registry:
+
+$ docker  inspect [object]								# List low-level information on Docker objects:
+
+
+$ docker  system prune									# Remove unused images, containers, and networks:
+
+
+
+=============================================
+Create, Build, Run and Push docker image to docker hub
+=============================================												
+Create a dockerfile in spring-cloud-service-registry folder with below content
+	FROM openjdk:17
+	ARG JAR_FILE=target/*.jar
+	COPY ${JAR_FILE} Spring-Cloud-Service-Registry.jar
+	ENTRYPOINT ["java", "-jar", "/Spring-Cloud-Service-Registry.jar" ]
+	EXPOSE 8761
+	
+Run the below command to build docker file to image
+$ docker build -t sabirahamed76/spring-cloud-service-registry:0.0.1 .
+
+Run below command to view the docker image created
+$ docker images 
+
+Run below command to run the docker image as a container
+$ docker run -d -p8761:8761 --name spring-cloud-service-registry sabirahamed76/spring-cloud-service-registry:0.0.1 
+
+Check the container is running
+$ docker ps -a
+
+Tag the project version
+$ docker tag sabirahamed76/spring-cloud-service-registry:0.0.1 sabirahamed76/spring-cloud-service-registry
+
+Push to dockerhub
+docker push sabirahamed76/spring-cloud-service-registry:0.0.1
+
+
+Create a docker-compose.yml file 
+$ docker compose -f docker-compose.yml up -d 			# command is used to start all services defined in a docker-compose.yml file in detached mode
+
+$ docker compose watch 									# a feature that automatically updates your running Compose services when you modify your code
+
+
+=============================================
+View real-time events for a container:
+=============================================												
+$ docker  events [container]							# Update the configuration of one or more containers:
+
+$ docker  update [container]							# View port mapping for a container:
+
+$ docker  port [container]								# Show running processes in a container:
+
+$ docker  top [container]								# View live resource usage statistics for a container:
+
+$ docker  stats [container]								# Show changes to files or directories on the filesystem:
+
+$ docker  diff [container]								# a local file to a directory in a container:
+
+$ docker  cp [file-path] CONTAINER:[path]				# Visit our detailed guide on how to update Docker container and image to the latest version for more information.
+
+=============================================
+Running a Container
+=============================================
+
+$ docker  run [image] [command]							# Create, start, and provide a custom name for the container:
+
+$ docker  run --name [container-name] [image]			# Run / start a container for the image specified
+
+$ docker  run -p [host-port]:[container-port] [image]	# Establish a connection with a container by mapping a host port to a container port:
+
+$ docker  run --rm [image]								# Remove a container
+
+$ docker  run -d [image]								# Run a detached (background) container:
+
+$ docker  run -it [image]								# Start an interactive process, such as a shell, in a container:
+
+$ docker  start [container]								# Start a container:
+
+$ docker  stop [container]								# Stop a running container:
+
+$ docker  restart [container]							# Stop a running container and start it up again:
+
+$ docker  pause [container]								# Pause processes in a running container:
+
+$ docker  unpause [container]							# Resume processes in a running container:
+	
+$ docker  wait [container]								# Block a container until others stop (after which it prints their exit codes):
+
+$ docker  kill [container]								# Kill a container by sending a SIGKILL to a running container:
+
+$ docker  attach [container]							# Attach local standard input, output, and error streams to a running container:
+
+$ docker  exec -it [container] [shell]					# Run a shell inside a running container:
+
+
+=============================================
+Docker Image Commands
+=============================================
+
+$ docker  images										# Show all docker iamges
+
+$ docker  build [dockerfile-path]						# Build an image from a Dockerfile located in the specified directory:
+
+$ docker  build .										# Build an image from a Dockerfile located in the current directory:
+
+$ docker  build -t [name]:[tag] [dockerfile-path]		# Create an image from a Dockerfile and tag it.
+
+$ docker  build -f [file-path]							# Specify a file to build from:
+
+$ docker  pull [image]									# Pull an image from a registry:
+
+$ docker  pull redis 									# Pull Redis from docker hub
+
+$ docker  run --name redis-latest redis:latest 			# Run redis from local
+
+$ docker  run --name redis-latest -p6379:6379 -d redis:latest 		# Run redis from local with ports expose
+
+$ docker  push [image]									# Push an image to a registry:
+
+$ docker  import [url/file]								# Create an image from a tarball
+
+$ docker  commit [container] [new-image]				# Create an image from a container:
+
+$ docker  tag [image] [image]:[tag]						# Tag an image:
+
+$ docker  history [image]								# Show all locally stored top-level images:
+
+$ docker  rmi [image]									# Remove an image:
+
+$ docker  load --image [tar-file]						# Load an image from a tar archive or stdin:
+
+$ docker  save [image] > [tar-file]						# Save an image to a tar archive file using Docker save command:
+
+$ docker  image prune									# Remove unused images:
+
+
+=============================================
+Networking
+=============================================
+$ docker  network ls									# List all networks
+
+$ docker  network rm [network]							# Remove one or more networks:
+
+
+$ docker  network inspect [network]						# Show information on one or more networks:
+
+$ docker  network connect [network] [container]			# Connect a container to a network:
+
+$ docker  network disconnect [network] [container]		# Disconnect a container from a network:
+
+
+
+=============================================
+Plugin Management Commands
+=============================================
+
+$ docker  plugin enable [plugin]						# Enable a Docker plugin:
+
+$ docker  plugin disable [plugin]						# Disable a Docker plugin:
+
+$ docker  plugin create [plugin] [path-to-data]			# Create a plugin from config.json and rootfs:
+
+$ docker  plugin inspect [plugin]						# View details about a plugin:
+
+$ docker  plugin rm [plugin]							# Remove a plugin:
+
+
+
+Reference
+
+https://www.youtube.com/watch?v=HR7wjLxQw1Q
+

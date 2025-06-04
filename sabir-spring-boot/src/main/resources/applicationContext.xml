@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    
+    <bean id="xmlStringBean1" class="java.lang.String">
+        <constructor-arg value="stringBean1"/>
+    </bean>
+
+    <bean id="xmlStringBean2" class="java.lang.String">
+        <constructor-arg value="stringBean2"/>
+    </bean>
+    
+    
+	<!-- load properties file for the Dependency Injection Properties Setter -->
+	<context:property-placeholder location="classpath:coachConfig.properties"/>
+	
+    <!-- Define your beans here -->
+    
+    <!-- define the dependency -->
+	<!-- Inversion of Control -->
+ 	<bean id="myCoach"
+ 		class="com.home.sabir.spring.InversionOfControl.BaseballCoach">
+ 	</bean>
+
+	<!-- Dependency Injection Constructor -->
+	<bean id="myFortuneServiceConstructor"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionConstructor.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneConstructor"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionConstructor.BaseballCoach">
+
+		<!-- constructor injection -->
+		<constructor-arg ref="myFortuneServiceConstructor" />
+	</bean>
+
+	<!-- Dependency Injection Setter -->
+	<bean id="myFortuneServiceSetter"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneSetter"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServiceSetter"/>
+	</bean>
+
+	<!-- Dependency Injection Advanced Setter -->
+	<bean id="myFortuneServiceAdvancedSetter"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionAdvancedSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortuneAdvancedSetter"
+		  class="com.home.sabir.spring.DependencyInjection.DependencyInjectionAdvancedSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServiceAdvancedSetter"/>
+
+		<!-- advanced setter -->
+		<property name="email" value="tesmail@testdomain.com"/>
+		<property name="team" value="My awesome Team"/>
+	</bean>
+
+	<!-- Dependency Injection Properties Setter -->
+	<bean id="myFortuneServicePropertiesSetter"
+		  class="com.home.sabir.spring.DependencyInjectionPropertiesSetter.HappyFortuneService">
+	</bean>
+
+	<bean id="myCoachFortunePropertiesSetter"
+		  class="com.home.sabir.spring.DependencyInjectionPropertiesSetter.BaseballCoach">
+
+		<!-- setter injection -->
+		<property name="fortuneService" ref="myFortuneServicePropertiesSetter"/>
+
+		<!-- properties setter -->
+		<property name="email" value="${coachProp.email}"/>
+		<property name="team" value="${coachProp.team}"/>
+	</bean>
+	
+    
+
+</beans>

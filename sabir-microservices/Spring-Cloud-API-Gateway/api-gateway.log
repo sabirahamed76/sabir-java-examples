@@ -1,0 +1,857 @@
+2025-05-22T00:00:04.591+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:00:04.870+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:00:04.870+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:00:04.870+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:00:04.875+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:00:34.635+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:00:34.898+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:00:34.898+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:00:34.899+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:00:34.902+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:01:04.672+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:01:04.930+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:01:04.930+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:01:04.930+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:01:04.933+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:01:34.698+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:01:34.956+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:01:34.956+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:01:34.957+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:01:34.960+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:02:04.712+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-22T00:02:04.726+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-22T00:02:04.726+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:02:04.977+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:02:04.977+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:02:04.977+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:02:04.980+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:02:31.623+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:02:31.623+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:02:31.623+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:02:31.623+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:02:31.623+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:02:34.749+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:02:34.991+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:02:34.991+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:02:34.991+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:02:34.993+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:03:04.772+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:03:05.013+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:03:05.013+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:03:05.013+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:03:05.016+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:03:34.798+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:03:35.021+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:03:35.021+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:03:35.021+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:03:35.023+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:04:04.836+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:04:05.060+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:04:05.060+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:04:05.060+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:04:05.064+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:04:34.865+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:04:35.095+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:04:35.095+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:04:35.096+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:04:35.098+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:05:04.892+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:05:05.123+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:05:05.123+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:05:05.123+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:05:05.128+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:05:34.917+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:05:35.156+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:05:35.156+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:05:35.156+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:05:35.157+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:06:04.952+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:06:05.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:06:05.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:06:05.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:06:05.182+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:06:34.987+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:06:35.196+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-22T00:06:35.214+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-22T00:06:35.214+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:06:35.214+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:06:35.214+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:06:35.216+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:07:05.013+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:07:05.246+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:07:05.246+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:07:05.248+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:07:05.254+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:07:31.638+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:07:31.638+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:07:31.638+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:07:31.638+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:07:31.638+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:07:35.033+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:07:35.272+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:07:35.272+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:07:35.273+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:07:35.274+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:08:05.064+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:08:05.307+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:08:05.307+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:08:05.307+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:08:05.310+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:08:35.081+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:08:35.331+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:08:35.331+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:08:35.331+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:08:35.333+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:09:05.113+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:09:05.362+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:09:05.362+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:09:05.362+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:09:05.362+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:09:05.365+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:09:35.145+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:09:35.395+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:09:35.395+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:09:35.395+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:09:35.395+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:09:35.398+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:10:05.175+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:10:05.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:10:05.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:10:05.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:10:05.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:10:05.435+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:10:35.199+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:10:35.462+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:10:35.462+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:10:35.462+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:10:35.462+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:10:35.464+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:11:05.231+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:11:05.492+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:11:05.492+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:11:05.492+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:11:05.493+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:11:05.495+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:11:35.254+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:11:35.516+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:11:35.516+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:11:35.516+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:11:35.516+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:11:35.521+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:12:05.284+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:12:05.546+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:12:05.546+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:12:05.546+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:12:05.546+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:12:05.546+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:12:31.644+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:12:31.644+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:12:31.644+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:12:31.644+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:12:31.644+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:12:35.312+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:12:35.583+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:12:35.583+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:12:35.583+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:12:35.583+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:12:35.583+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:13:05.332+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:13:05.611+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:13:05.611+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:13:05.611+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:13:05.612+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:13:05.615+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:13:35.359+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:13:35.627+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:13:35.627+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:13:35.627+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:13:35.627+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:13:35.634+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:14:05.387+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:14:05.657+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:14:05.657+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:14:05.657+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:14:05.662+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:14:35.420+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:14:35.673+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:14:35.673+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:14:35.673+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:14:35.673+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:15:05.449+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:15:05.700+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:15:05.700+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:15:05.700+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:15:05.703+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:15:35.478+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:15:35.726+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:15:35.726+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:15:35.726+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:15:35.731+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:16:05.499+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:16:05.749+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:16:05.749+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:16:05.749+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:16:05.753+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:16:35.524+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:16:35.773+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:16:35.773+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:16:35.773+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:16:35.777+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:17:05.555+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:17:05.804+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:17:05.804+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:17:05.804+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:17:05.805+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:17:31.646+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:17:31.646+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:17:31.646+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:17:31.646+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:17:31.646+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:17:35.585+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:17:35.831+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:17:35.831+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:17:35.831+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:17:35.834+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:18:05.598+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-22T00:18:05.614+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-22T00:18:05.615+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:18:05.867+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:18:05.868+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:18:05.868+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:18:05.880+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:18:35.637+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:18:35.900+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:18:35.900+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:18:35.900+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:18:35.903+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:19:05.664+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:19:05.928+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:19:05.929+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:19:05.929+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:19:05.929+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:19:05.931+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:19:35.691+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:19:35.958+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:19:35.958+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:19:35.958+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:19:35.958+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:19:35.961+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:20:05.720+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:20:05.986+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:20:05.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:20:05.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:20:05.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:20:05.991+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:20:35.744+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:20:36.011+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:20:36.012+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:20:36.012+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:20:36.012+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:20:36.018+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:21:05.768+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:21:06.045+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:21:06.045+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:21:06.045+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:21:06.045+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:21:06.048+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:21:35.790+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:21:36.069+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:21:36.069+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:21:36.069+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:21:36.069+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:21:36.071+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:22:05.797+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:22:06.089+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:22:06.089+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:22:06.089+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:22:06.089+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:22:06.093+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:22:31.651+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:22:31.651+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:22:31.652+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:22:31.652+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:22:31.652+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:22:35.815+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:22:36.125+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:22:36.125+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:22:36.125+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:22:36.125+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:22:36.130+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:23:05.845+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:23:06.158+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:23:06.158+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:23:06.158+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:23:06.158+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:23:06.161+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:23:35.873+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:23:36.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:23:36.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:23:36.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:23:36.180+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:23:36.187+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:24:05.902+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:24:06.212+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:24:06.212+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:24:06.213+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:24:06.213+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:24:06.217+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:24:35.922+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:24:36.237+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:24:36.237+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:24:36.237+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:24:36.237+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:24:36.244+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:25:05.945+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:25:06.267+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:25:06.267+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:25:06.267+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:25:06.267+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:25:06.270+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:25:35.968+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:25:36.295+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:25:36.295+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:25:36.295+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:25:36.295+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:25:36.298+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:26:05.992+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:26:06.317+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:26:06.318+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:26:06.318+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:26:06.326+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:26:36.012+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:26:36.330+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:26:36.331+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:26:36.331+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:26:36.333+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:27:06.046+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:27:06.357+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:27:06.358+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:27:06.358+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:27:06.367+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:27:31.653+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:27:31.653+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:27:31.653+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:27:31.653+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:27:31.653+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:27:36.056+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:27:36.372+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:27:36.372+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:27:36.372+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:27:36.374+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:28:06.074+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:28:06.403+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-22T00:28:06.403+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Deleted instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps 
+2025-05-22T00:28:06.404+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:28:06.404+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-22T00:28:06.407+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-22T00:28:36.094+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:28:36.417+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-22T00:28:36.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-22T00:28:36.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:28:36.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:28:36.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:28:36.430+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:28:36.433+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:29:06.106+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-22T00:29:06.128+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-22T00:29:06.128+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:29:06.463+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:29:06.463+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:29:06.463+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:29:06.463+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:29:06.466+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:29:36.149+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:29:36.472+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:29:36.472+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:29:36.472+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:29:36.472+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:29:36.476+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:30:06.172+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:30:06.498+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:30:06.498+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:30:06.498+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:30:06.498+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:30:06.503+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:30:36.201+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:30:36.528+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:30:36.528+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:30:36.528+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:30:36.528+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:30:36.531+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:31:06.227+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:31:06.562+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:31:06.562+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:31:06.562+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:31:06.562+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:31:06.564+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:31:36.258+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:31:36.584+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:31:36.584+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:31:36.584+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:31:36.584+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:31:36.587+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:32:06.283+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:32:06.607+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:32:06.607+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:32:06.607+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:32:06.607+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:32:06.609+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:32:31.667+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:32:31.667+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:32:31.667+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:32:31.667+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:32:31.667+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:32:36.311+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:32:36.641+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:32:36.641+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:32:36.641+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:32:36.641+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:32:36.647+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:33:06.334+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:33:06.679+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:33:06.680+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:33:06.680+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:33:06.680+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:33:06.682+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:33:36.360+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:33:36.714+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:33:36.715+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:33:36.715+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:33:36.715+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:33:36.719+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:34:06.393+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:34:06.740+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:34:06.740+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:34:06.740+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:34:06.740+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:34:06.743+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:34:36.424+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:34:36.768+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:34:36.768+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:34:36.768+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:34:36.768+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:34:36.772+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:35:06.449+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:35:06.806+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:35:06.806+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:35:06.806+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:35:06.807+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:35:06.815+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:35:36.482+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:35:36.835+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:35:36.835+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:35:36.835+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:35:36.836+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:35:36.841+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:36:06.518+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:36:06.864+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:36:06.864+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:36:06.864+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:36:06.864+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:36:06.866+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:36:36.547+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:36:36.895+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:36:36.895+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:36:36.895+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:36:36.896+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:37:06.581+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:37:06.928+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:37:06.928+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:37:06.928+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:37:06.932+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:37:31.672+08:00  INFO 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-22T00:37:31.672+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-22T00:37:31.672+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:37:31.672+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:37:31.672+08:00 DEBUG 25004 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-22T00:37:36.604+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:37:36.964+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:37:36.964+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:37:36.964+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:37:36.968+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:38:06.635+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:38:06.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:38:06.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:38:06.987+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:38:06.991+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:38:36.674+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:38:37.015+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:38:37.015+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-22T00:38:37.015+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:38:37.019+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:39:06.702+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:39:07.047+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode DOWN_1_UP_2_
+2025-05-22T00:39:07.048+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:39:07.048+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:39:07.048+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:39:07.057+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: DOWN_1_UP_2_, is fetching remote regions? false 
+2025-05-22T00:39:36.723+08:00 DEBUG 25004 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - Heartbeat status: 200
+2025-05-22T00:39:37.063+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_3_
+2025-05-22T00:39:37.063+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance SABIR-HOME.mshome.net:LISTING-SERVICE:8086 to the existing apps in region null
+2025-05-22T00:39:37.063+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 1
+2025-05-22T00:39:37.063+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 3
+2025-05-22T00:39:37.066+08:00 DEBUG 25004 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_3_, is fetching remote regions? false 
+2025-05-22T00:39:48.116+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-22T00:39:48.122+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2025-05-22T00:39:48.123+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1747845588123, current=DOWN, previous=UP]
+2025-05-22T00:39:48.123+08:00 DEBUG 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Executing on-demand update of local InstanceInfo
+2025-05-22T00:39:48.123+08:00 DEBUG 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+2025-05-22T00:39:48.123+08:00  INFO 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060: registering service...
+2025-05-22T00:39:48.156+08:00  INFO 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 21 more
+
+2025-05-22T00:39:48.156+08:00  WARN 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-05-22T00:39:48.182+08:00  INFO 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 22 more
+
+2025-05-22T00:39:48.182+08:00  WARN 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/API-GATEWAY": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-05-22T00:39:48.182+08:00  WARN 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-05-22T00:39:48.188+08:00  WARN 25004 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-05-22T00:39:49.174+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-05-22T00:39:52.188+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-05-22T00:39:52.188+08:00 DEBUG 25004 --- [RMI TCP Connection(105)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Clearing quarantined list of size 1
+2025-05-22T00:39:52.203+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:425)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:383)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:213)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:191)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:184)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1182)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:149)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 69 more
+
+2025-05-22T00:39:52.204+08:00  WARN 25004 --- [RMI TCP Connection(105)-127.0.0.1] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-05-22T00:39:52.204+08:00 ERROR 25004 --- [RMI TCP Connection(105)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/SABIR-HOME.mshome.net:API-GATEWAY:8060 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:425) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:383) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:213) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:191) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:184) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.0.2.jar:4.0.2]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.0.2.jar:4.0.2]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1189) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1182) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:149) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-05-22T00:39:52.212+08:00  INFO 25004 --- [RMI TCP Connection(105)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

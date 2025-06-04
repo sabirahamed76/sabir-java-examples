@@ -1,0 +1,9 @@
+FROM openjdk:17
+
+ARG JAR_FILE=target/*.jar
+
+COPY ${JAR_FILE} Spring-Cloud-Product-Service.jar
+
+ENTRYPOINT ["java", "-jar", "/Spring-Cloud-Product-Service.jar" ]
+
+EXPOSE 8083

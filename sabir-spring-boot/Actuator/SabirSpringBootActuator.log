@@ -1,0 +1,808 @@
+2025-06-03 10:59:09.989  INFO 31016 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 31016 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 10:59:09.993  INFO 31016 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 10:59:10.076  INFO 31016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 10:59:10.077  INFO 31016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 10:59:12.161  INFO 31016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 10:59:12.210  INFO 31016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 10:59:12.211  INFO 31016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 10:59:12.323  INFO 31016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 10:59:12.323 DEBUG 31016 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 10:59:12.323  INFO 31016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2246 ms
+2025-06-03 10:59:12.848 DEBUG 31016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2025-06-03 10:59:12.974  INFO 31016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-06-03 10:59:12.986 DEBUG 31016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-03 10:59:13.036 DEBUG 31016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-06-03 10:59:13.053 DEBUG 31016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-03 10:59:13.068 DEBUG 31016 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-03 10:59:13.496  INFO 31016 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b342643, org.springframework.security.web.context.SecurityContextPersistenceFilter@68d4ec3e, org.springframework.security.web.header.HeaderWriterFilter@3137368b, org.springframework.security.web.csrf.CsrfFilter@41669b4f, org.springframework.security.web.authentication.logout.LogoutFilter@7dc6e1cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69b001ae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3acd4820, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@561f2a3c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f5dc196, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58d51dd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e4ff43b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b37ba6f, org.springframework.security.web.session.SessionManagementFilter@71460713, org.springframework.security.web.access.ExceptionTranslationFilter@1551516d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ff8603e]
+2025-06-03 10:59:13.523  INFO 31016 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 8 endpoint(s) beneath base path '/actuator'
+2025-06-03 10:59:13.583  INFO 31016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-03 10:59:13.693  INFO 31016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-06-03 10:59:13.699  INFO 31016 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Started SpringActuatorDemoApplication in 4.241 seconds (JVM running for 4.931)
+2025-06-03 10:59:32.481  INFO 31016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-03 10:59:32.482  INFO 31016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-03 10:59:32.482 DEBUG 31016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-03 10:59:32.489 DEBUG 31016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-03 10:59:32.489  INFO 31016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-06-03 10:59:32.520 DEBUG 31016 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 10:59:32.527 DEBUG 31016 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 10:59:54.051 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 10:59:54.060 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 10:59:54.068 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-06-03 10:59:54.078 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 10:59:54.082 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-03 10:59:54.082 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-03 10:59:54.098 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-06-03 10:59:54.107 DEBUG 31016 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2025-06-03 10:59:54.146 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-03 10:59:54.152 DEBUG 31016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-03 11:03:48.242  INFO 31016 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-06-03 11:03:53.897  INFO 36224 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 36224 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:03:53.899  INFO 36224 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:03:53.972  INFO 36224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:03:53.972  INFO 36224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:03:56.054  INFO 36224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:03:56.095  INFO 36224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:03:56.095  INFO 36224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:03:56.259  INFO 36224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:03:56.259 DEBUG 36224 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:03:56.259  INFO 36224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2287 ms
+2025-06-03 11:03:56.811 DEBUG 36224 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2025-06-03 11:03:56.936  INFO 36224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-06-03 11:03:56.949 DEBUG 36224 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-03 11:03:57.004 DEBUG 36224 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-06-03 11:03:57.017 DEBUG 36224 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-03 11:03:57.026 DEBUG 36224 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-03 11:03:57.454  INFO 36224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5913967c, org.springframework.security.web.context.SecurityContextPersistenceFilter@41467e73, org.springframework.security.web.header.HeaderWriterFilter@7dc6e1cc, org.springframework.security.web.csrf.CsrfFilter@682f24e7, org.springframework.security.web.authentication.logout.LogoutFilter@492405aa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d4ee952, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@306ffee2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e6ccbc9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a5b87d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25400b2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@397e8c25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a73ad63, org.springframework.security.web.session.SessionManagementFilter@4c983dfe, org.springframework.security.web.access.ExceptionTranslationFilter@4b14a17f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d570149]
+2025-06-03 11:03:57.487  INFO 36224 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 8 endpoint(s) beneath base path '/details'
+2025-06-03 11:03:57.548  INFO 36224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-03 11:03:57.656  INFO 36224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-06-03 11:03:57.661  INFO 36224 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Started SpringActuatorDemoApplication in 4.284 seconds (JVM running for 4.833)
+2025-06-03 11:04:35.957  INFO 36224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-03 11:04:35.961  INFO 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-03 11:04:35.961 DEBUG 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-03 11:04:35.972 DEBUG 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-03 11:04:35.974  INFO 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2025-06-03 11:04:36.057 DEBUG 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/details", parameters={}
+2025-06-03 11:04:36.127 DEBUG 36224 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2025-06-03 11:04:36.147 DEBUG 36224 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@37ce72ae href = 'http://localhost:8080/details'], beans=[Link@5c983b65 href = 'h (truncated)...]
+2025-06-03 11:04:36.277 DEBUG 36224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-03 11:05:10.595 DEBUG 36224 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/details", parameters={}
+2025-06-03 11:05:10.598 DEBUG 36224 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2025-06-03 11:05:10.598 DEBUG 36224 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@2e35050e href = 'http://localhost:8080/details'], beans=[Link@6b379eac href = 'h (truncated)...]
+2025-06-03 11:05:10.601 DEBUG 36224 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-03 11:05:15.335 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:15.348 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:15.350 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-06-03 11:05:15.358 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:15.366 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-03 11:05:15.366 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-03 11:05:15.377 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-06-03 11:05:15.389 DEBUG 36224 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2025-06-03 11:05:15.410 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-03 11:05:15.420 DEBUG 36224 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-03 11:05:17.833 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:17.838 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:17.841 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-06-03 11:05:17.847 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:05:17.847 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-03 11:05:17.847 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-03 11:05:17.851 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-06-03 11:05:17.858 DEBUG 36224 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2025-06-03 11:05:17.864 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-03 11:05:17.870 DEBUG 36224 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-03 11:07:43.487  INFO 36224 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-06-03 11:07:51.293  INFO 34784 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 34784 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:07:51.299  INFO 34784 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:07:51.428  INFO 34784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:07:51.429  INFO 34784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:07:55.467  INFO 34784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:07:55.562  INFO 34784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:07:55.563  INFO 34784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:07:55.817  INFO 34784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:07:55.818 DEBUG 34784 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:07:55.818  INFO 34784 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4389 ms
+2025-06-03 11:07:57.415 DEBUG 34784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2025-06-03 11:07:57.848  INFO 34784 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-06-03 11:07:57.871 DEBUG 34784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-03 11:07:58.000 DEBUG 34784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-06-03 11:07:58.034 DEBUG 34784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-03 11:07:58.071 DEBUG 34784 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-03 11:07:58.920  INFO 34784 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b95503, org.springframework.security.web.context.SecurityContextPersistenceFilter@57a8858a, org.springframework.security.web.header.HeaderWriterFilter@752bacab, org.springframework.security.web.csrf.CsrfFilter@6b2c6fca, org.springframework.security.web.authentication.logout.LogoutFilter@4f9847af, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e06b67, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@21cf2b14, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@73f77ab1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@262c9f72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@309f3c5f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69b001ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ef94ff7, org.springframework.security.web.session.SessionManagementFilter@5ec41e53, org.springframework.security.web.access.ExceptionTranslationFilter@3d4f21e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@753d9c44]
+2025-06-03 11:07:58.978  INFO 34784 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 8 endpoint(s) beneath base path '/details'
+2025-06-03 11:07:59.085  INFO 34784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-03 11:07:59.331  INFO 34784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-06-03 11:07:59.348  INFO 34784 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Started SpringActuatorDemoApplication in 8.862 seconds (JVM running for 9.699)
+2025-06-03 11:07:59.513  INFO 34784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-03 11:07:59.513  INFO 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-03 11:07:59.513 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-03 11:07:59.530 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-03 11:07:59.530  INFO 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2025-06-03 11:07:59.618 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:07:59.630 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:07:59.668 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-06-03 11:07:59.685 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 11:07:59.694 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-03 11:07:59.696 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-03 11:07:59.750 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-06-03 11:07:59.776 DEBUG 34784 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2025-06-03 11:07:59.859 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-03 11:07:59.873 DEBUG 34784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-03 11:08:09.360 DEBUG 34784 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/details", parameters={}
+2025-06-03 11:08:09.403 DEBUG 34784 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2025-06-03 11:08:09.438 DEBUG 34784 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@7a36183b href = 'http://localhost:8080/details'], beans=[Link@6e3155f1 href = 'h (truncated)...]
+2025-06-03 11:08:09.587 DEBUG 34784 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-03 11:09:54.629  INFO 34784 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-06-03 11:13:42.542  INFO 12944 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 12944 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:13:42.549  INFO 12944 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:13:42.676  INFO 12944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:13:42.677  INFO 12944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:13:46.955  INFO 12944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:13:47.020  INFO 12944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:13:47.020  INFO 12944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:13:47.193  INFO 12944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:13:47.193 DEBUG 12944 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:13:47.193  INFO 12944 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4516 ms
+2025-06-03 11:13:48.240 DEBUG 12944 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$d32b3ff7@3bfca035}
+2025-06-03 11:13:48.405 DEBUG 12944 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@60f8804f
+2025-06-03 11:13:48.412 DEBUG 12944 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:13:48.427 DEBUG 12944 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:13:48.433 DEBUG 12944 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:13:48.443  INFO 12944 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fc409dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@6aa4a762, org.springframework.security.web.header.HeaderWriterFilter@65403f8f, org.springframework.security.web.csrf.CsrfFilter@71e17010, org.springframework.security.web.authentication.logout.LogoutFilter@2f7a3ea3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4773056f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@572ce96e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@145dab3e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35c2462e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d7efef2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e977899, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@299d8292, org.springframework.security.web.session.SessionManagementFilter@170ce106, org.springframework.security.web.access.ExceptionTranslationFilter@4d04347d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c014c6d]
+2025-06-03 11:13:48.492  WARN 12944 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:13:48.517  INFO 12944 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:13:48.573  INFO 12944 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:13:49.088 ERROR 12944 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method securityFilterChain in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:14:48.478  INFO 27744 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 27744 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:14:48.483  INFO 27744 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:14:48.605  INFO 27744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:14:48.605  INFO 27744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:14:52.035  INFO 27744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:14:52.096  INFO 27744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:14:52.097  INFO 27744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:14:52.326  INFO 27744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:14:52.326 DEBUG 27744 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:14:52.327  INFO 27744 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3721 ms
+2025-06-03 11:14:53.447 DEBUG 27744 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$73101872@23835e7f}
+2025-06-03 11:14:53.630 DEBUG 27744 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@71ad8d3a
+2025-06-03 11:14:53.631 DEBUG 27744 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:14:53.639 DEBUG 27744 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:14:53.640 DEBUG 27744 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:14:53.644  INFO 27744 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39f27593, org.springframework.security.web.context.SecurityContextPersistenceFilter@46cd6309, org.springframework.security.web.header.HeaderWriterFilter@36effea4, org.springframework.security.web.csrf.CsrfFilter@605f7c47, org.springframework.security.web.authentication.logout.LogoutFilter@4acd0a40, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1cf83c8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b7835ff, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22bcca7d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@21b1e14d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3736797c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@528e79c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@248838a7, org.springframework.security.web.session.SessionManagementFilter@62e2c06, org.springframework.security.web.access.ExceptionTranslationFilter@20e5540d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@328e6ce2]
+2025-06-03 11:14:53.668  WARN 27744 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:14:53.680  INFO 27744 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:14:53.714  INFO 27744 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:14:54.090 ERROR 27744 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method securityFilterChain in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:18:26.698  INFO 20448 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 20448 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:18:26.702  INFO 20448 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:18:26.825  INFO 20448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:18:26.825  INFO 20448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:18:30.112  INFO 20448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:18:30.176  INFO 20448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:18:30.178  INFO 20448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:18:30.404  INFO 20448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:18:30.404 DEBUG 20448 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:18:30.404  INFO 20448 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3579 ms
+2025-06-03 11:18:31.524 DEBUG 20448 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$75e9c073@73998648}
+2025-06-03 11:18:31.676 DEBUG 20448 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@2c72d8da
+2025-06-03 11:18:31.677 DEBUG 20448 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:18:31.691 DEBUG 20448 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:18:31.695 DEBUG 20448 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:18:31.701  INFO 20448 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77810932, org.springframework.security.web.context.SecurityContextPersistenceFilter@7910f72c, org.springframework.security.web.header.HeaderWriterFilter@439b59b1, org.springframework.security.web.csrf.CsrfFilter@2e4facd4, org.springframework.security.web.authentication.logout.LogoutFilter@496c6169, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3263a556, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@239bbbeb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@39b96669, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19041943, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1464d6d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@454a91ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a091b01, org.springframework.security.web.session.SessionManagementFilter@269c70ff, org.springframework.security.web.access.ExceptionTranslationFilter@7da538ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68764276]
+2025-06-03 11:18:31.716  WARN 20448 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:18:31.722  INFO 20448 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:18:31.757  INFO 20448 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:18:32.098 ERROR 20448 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method securityFilterChain in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:26:04.609  INFO 28292 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 28292 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:26:04.612  INFO 28292 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:26:04.733  INFO 28292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:26:04.733  INFO 28292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:26:08.161  INFO 28292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:26:08.241  INFO 28292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:26:08.241  INFO 28292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:26:08.527  INFO 28292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:26:08.527 DEBUG 28292 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:26:08.528  INFO 28292 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3795 ms
+2025-06-03 11:26:09.607 DEBUG 28292 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$896fc7d5@71af833d}
+2025-06-03 11:26:09.856 DEBUG 28292 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@4e76cfbe
+2025-06-03 11:26:09.858 DEBUG 28292 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:26:09.871 DEBUG 28292 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:26:09.873 DEBUG 28292 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:26:09.882  INFO 28292 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70097e51, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b24374f, org.springframework.security.web.header.HeaderWriterFilter@293d77e0, org.springframework.security.web.csrf.CsrfFilter@1cf4f5e6, org.springframework.security.web.authentication.logout.LogoutFilter@3eada9c6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79279e74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17552b02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7db34572, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ff26fd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c83bf47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68764276, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@737baf3a, org.springframework.security.web.session.SessionManagementFilter@27169953, org.springframework.security.web.access.ExceptionTranslationFilter@480da31c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64fbb37e]
+2025-06-03 11:26:09.895  WARN 28292 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Invalid factory method 'configure': needs to have a non-void return type!
+2025-06-03 11:26:09.905  INFO 28292 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:26:09.948  INFO 28292 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:26:09.958 ERROR 28292 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Invalid factory method 'configure': needs to have a non-void return type!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.home.sabir.springboot.SpringMVC.SpringActuatorDemoApplication.main(SpringActuatorDemoApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+
+2025-06-03 11:26:33.400  INFO 31304 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 31304 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:26:33.405  INFO 31304 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:26:33.537  INFO 31304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:26:33.537  INFO 31304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:26:37.136  INFO 31304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:26:37.201  INFO 31304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:26:37.202  INFO 31304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:26:37.408  INFO 31304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:26:37.409 DEBUG 31304 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:26:37.409  INFO 31304 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3871 ms
+2025-06-03 11:26:38.525 DEBUG 31304 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$b361b9d1@6014eeb6}
+2025-06-03 11:26:38.718 DEBUG 31304 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@6d4d6135
+2025-06-03 11:26:38.719 DEBUG 31304 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:26:38.731 DEBUG 31304 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:26:38.734 DEBUG 31304 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:26:38.739  INFO 31304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e4fd928, org.springframework.security.web.context.SecurityContextPersistenceFilter@350cc86d, org.springframework.security.web.header.HeaderWriterFilter@6f4c7ffc, org.springframework.security.web.csrf.CsrfFilter@59de224a, org.springframework.security.web.authentication.logout.LogoutFilter@12fa22c1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35a6cf84, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3738f267, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@70e3afa4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4898cbdd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e6b8566, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3263a556, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76673d76, org.springframework.security.web.session.SessionManagementFilter@43d73a52, org.springframework.security.web.access.ExceptionTranslationFilter@1964d1f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79279e74]
+2025-06-03 11:26:38.752  WARN 31304 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configure' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'configure' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:26:38.765  INFO 31304 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:26:38.804  INFO 31304 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:26:39.145 ERROR 31304 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method configure in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:26:55.922  INFO 16764 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 16764 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:26:55.926  INFO 16764 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:26:56.049  INFO 16764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:26:56.050  INFO 16764 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:26:59.484  INFO 16764 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:26:59.566  INFO 16764 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:26:59.567  INFO 16764 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:26:59.775  INFO 16764 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:26:59.776 DEBUG 16764 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:26:59.776  INFO 16764 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3726 ms
+2025-06-03 11:27:00.849 DEBUG 16764 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$41547b7b@a04e88f}
+2025-06-03 11:27:01.012 DEBUG 16764 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@11cbf7bc
+2025-06-03 11:27:01.013 DEBUG 16764 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:27:01.022 DEBUG 16764 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:27:01.024 DEBUG 16764 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:27:01.033  INFO 16764 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4898cbdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@27169953, org.springframework.security.web.header.HeaderWriterFilter@480da31c, org.springframework.security.web.csrf.CsrfFilter@693ff09f, org.springframework.security.web.authentication.logout.LogoutFilter@19041943, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@613e3995, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6cb6e46e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@73d05540, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79279e74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b24374f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ca8c8c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70097e51, org.springframework.security.web.session.SessionManagementFilter@293d77e0, org.springframework.security.web.access.ExceptionTranslationFilter@1eaf8fd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d3837b8]
+2025-06-03 11:27:01.061  WARN 16764 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configure' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'configure' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:27:01.076  INFO 16764 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:27:01.120  INFO 16764 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:27:01.496 ERROR 16764 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method configure in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:53:40.008  INFO 31396 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 31396 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:53:40.010  INFO 31396 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:53:40.066  INFO 31396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:53:40.066  INFO 31396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:53:41.621  INFO 31396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:53:41.653  INFO 31396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:53:41.654  INFO 31396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:53:41.731  INFO 31396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:53:41.731 DEBUG 31396 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:53:41.731  INFO 31396 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1665 ms
+2025-06-03 11:53:42.175 DEBUG 31396 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$c6860845@5c8191a5}
+2025-06-03 11:53:42.251 DEBUG 31396 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@1248b961
+2025-06-03 11:53:42.252 DEBUG 31396 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:53:42.257 DEBUG 31396 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:53:42.258 DEBUG 31396 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:53:42.261  INFO 31396 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@376434c7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4753e886, org.springframework.security.web.header.HeaderWriterFilter@7e69f5fe, org.springframework.security.web.csrf.CsrfFilter@6ec064dd, org.springframework.security.web.authentication.logout.LogoutFilter@14286602, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46cd6309, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7268764d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@762cd499, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@609e94b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f195883, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47793b1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78acdc4a, org.springframework.security.web.session.SessionManagementFilter@2ebd6f09, org.springframework.security.web.access.ExceptionTranslationFilter@1c5a4992, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ca2a370]
+2025-06-03 11:53:42.267  WARN 31396 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:53:42.273  INFO 31396 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:53:42.291  INFO 31396 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:53:42.448 ERROR 31396 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method securityFilterChain in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:54:04.283  INFO 26564 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 26564 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:54:04.285  INFO 26564 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:54:04.341  INFO 26564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:54:04.341  INFO 26564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:54:05.871  INFO 26564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:54:05.895  INFO 26564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:54:05.896  INFO 26564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 11:54:05.975  INFO 26564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 11:54:05.975 DEBUG 26564 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 11:54:05.975  INFO 26564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1634 ms
+2025-06-03 11:54:06.403 DEBUG 26564 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$63af9049@3d69c727}
+2025-06-03 11:54:06.467 DEBUG 26564 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@7e139454
+2025-06-03 11:54:06.468 DEBUG 26564 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 11:54:06.471 DEBUG 26564 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:54:06.472 DEBUG 26564 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 11:54:06.474  INFO 26564 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@254599ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@63c1c9e0, org.springframework.security.web.header.HeaderWriterFilter@30457494, org.springframework.security.web.csrf.CsrfFilter@dae88b7, org.springframework.security.web.authentication.logout.LogoutFilter@5523169d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e0e36ae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c2c9460, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1872a7d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@109ad80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25a2cb82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37bdae85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3021c3a2, org.springframework.security.web.session.SessionManagementFilter@4773ac2f, org.springframework.security.web.access.ExceptionTranslationFilter@6a22a356, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58d982c5]
+2025-06-03 11:54:06.482  WARN 26564 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/home/sabir/springboot/SpringMVC/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-03 11:54:06.486  INFO 26564 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-03 11:54:06.499  INFO 26564 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-03 11:54:06.636 ERROR 26564 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method securityFilterChain in com.home.sabir.springboot.SpringMVC.config.SecurityConfig required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2025-06-03 11:59:58.188  INFO 14748 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Starting SpringActuatorDemoApplication on SABIR-HOME with PID 14748 (D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-java-examples\sabir-spring-boot\Actuator)
+2025-06-03 11:59:58.191  INFO 14748 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : No active profile set, falling back to default profiles: default
+2025-06-03 11:59:58.257  INFO 14748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-03 11:59:58.257  INFO 14748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-03 11:59:59.903  INFO 14748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-06-03 11:59:59.937  INFO 14748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-03 11:59:59.937  INFO 14748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2025-06-03 12:00:00.027  INFO 14748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-03 12:00:00.027 DEBUG 14748 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2025-06-03 12:00:00.027  INFO 14748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1770 ms
+2025-06-03 12:00:00.460 DEBUG 14748 --- [restartedMain] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=com.home.sabir.springboot.SpringMVC.config.SecurityConfig$$EnhancerBySpringCGLIB$$ba8c03e3@3a2ed003}
+2025-06-03 12:00:00.546 DEBUG 14748 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@64fc535d
+2025-06-03 12:00:00.547 DEBUG 14748 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2025-06-03 12:00:00.553 DEBUG 14748 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 12:00:00.555 DEBUG 14748 --- [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2025-06-03 12:00:00.558  INFO 14748 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23cb1f08, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e69f5fe, org.springframework.security.web.header.HeaderWriterFilter@3e21c158, org.springframework.security.web.csrf.CsrfFilter@27f8508e, org.springframework.security.web.authentication.logout.LogoutFilter@7b0fdad3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@36effea4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@65aa11cc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@376434c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46cd6309, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ebd6f09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68fd9766, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@762cd499, org.springframework.security.web.session.SessionManagementFilter@1c5a4992, org.springframework.security.web.access.ExceptionTranslationFilter@4635a87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5efc50f9]
+2025-06-03 12:00:00.607 DEBUG 14748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2025-06-03 12:00:00.678  INFO 14748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-06-03 12:00:00.690 DEBUG 14748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-03 12:00:00.753 DEBUG 14748 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-06-03 12:00:00.773 DEBUG 14748 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-03 12:00:00.786 DEBUG 14748 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-03 12:00:00.970  INFO 14748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 8 endpoint(s) beneath base path '/details'
+2025-06-03 12:00:01.015  INFO 14748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-03 12:00:01.091  INFO 14748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-06-03 12:00:01.095  INFO 14748 --- [restartedMain] c.h.s.s.S.SpringActuatorDemoApplication  : Started SpringActuatorDemoApplication in 3.346 seconds (JVM running for 3.784)
+2025-06-03 12:00:31.002  INFO 14748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-03 12:00:31.002  INFO 14748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-03 12:00:31.002 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-03 12:00:31.007 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-03 12:00:31.007  INFO 14748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-06-03 12:00:31.017 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:00:31.018 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:00:31.018 DEBUG 14748 --- [http-nio-8080-exec-1] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2025-06-03 12:00:31.018 DEBUG 14748 --- [http-nio-8080-exec-1] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: null. A new one will be created.
+2025-06-03 12:00:31.019 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:00:31.020 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /logout'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /login'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/details'; against '/logout'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2025-06-03 12:00:31.022 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2025-06-03 12:00:31.023 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2025-06-03 12:00:31.023 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2025-06-03 12:00:31.023 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2025-06-03 12:00:31.024 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@22bda97c: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2025-06-03 12:00:31.024 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2025-06-03 12:00:31.024 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.session.SessionManagementFilter  : Requested session ID A377B03C0AF08C21E11CA0DC0F011FD6 is invalid.
+2025-06-03 12:00:31.024 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2025-06-03 12:00:31.024 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : /details at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2025-06-03 12:00:31.028 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/health/**']
+2025-06-03 12:00:31.034 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/info/**']
+2025-06-03 12:00:31.035 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2025-06-03 12:00:31.035 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /details; Attributes: [authenticated]
+2025-06-03 12:00:31.035 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@22bda97c: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+2025-06-03 12:00:31.039 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@7ec2a2e8, returned: -1
+2025-06-03 12:00:31.044 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.a.ExceptionTranslationFilter     : Access is denied (user is anonymous); redirecting to authentication entry point
+
+org.springframework.security.access.AccessDeniedException: Access is denied
+	at org.springframework.security.access.vote.AffirmativeBased.decide(AffirmativeBased.java:84) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation(AbstractSecurityInterceptor.java:233) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:124) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:52) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:206) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) ~[spring-boot-actuator-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) ~[spring-boot-actuator-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using Ant [pattern='/**', GET]
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request '/details' matched by universal pattern '/**'
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using NegatedRequestMatcher [requestMatcher=Ant [pattern='/**/favicon.*']]
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/details'; against '/**/favicon.*'
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.NegatedRequestMatcher  : matches = true
+2025-06-03 12:00:31.049 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using NegatedRequestMatcher [requestMatcher=MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@6fd3eccf, matchingMediaTypes=[application/json], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : httpRequestMediaTypes=[text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing text/html
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith text/html = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing application/xhtml+xml
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith application/xhtml+xml = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing image/avif
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith image/avif = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing image/webp
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith image/webp = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing image/apng
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith image/apng = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing application/xml;q=0.9
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith application/xml;q=0.9 = false
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing application/signed-exchange;v=b3;q=0.7
+2025-06-03 12:00:31.050 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/json .isCompatibleWith application/signed-exchange;v=b3;q=0.7 = false
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing */*;q=0.8
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Ignoring
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Did not match any media types
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.NegatedRequestMatcher  : matches = true
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using NegatedRequestMatcher [requestMatcher=RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]]
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.NegatedRequestMatcher  : matches = true
+2025-06-03 12:00:31.051 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : All requestMatchers returned true
+2025-06-03 12:00:31.069 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.s.HttpSessionRequestCache        : DefaultSavedRequest added to Session: DefaultSavedRequest[http://localhost:8080/details]
+2025-06-03 12:00:31.069 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.a.ExceptionTranslationFilter     : Calling Authentication entry point.
+2025-06-03 12:00:31.069 DEBUG 14748 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using AndRequestMatcher [requestMatchers=[NegatedRequestMatcher [requestMatcher=RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@6fd3eccf, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]]
+2025-06-03 12:00:31.069 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using NegatedRequestMatcher [requestMatcher=RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]]
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.matcher.NegatedRequestMatcher  : matches = true
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : Trying to match using MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@6fd3eccf, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : httpRequestMediaTypes=[text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : Processing text/html
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : application/xhtml+xml .isCompatibleWith text/html = false
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : image/* .isCompatibleWith text/html = false
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.u.m.MediaTypeRequestMatcher      : text/html .isCompatibleWith text/html = true
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.util.matcher.AndRequestMatcher   : All requestMatchers returned true
+2025-06-03 12:00:31.070 DEBUG 14748 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@289a87b3
+2025-06-03 12:00:31.071 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.web.DefaultRedirectStrategy        : Redirecting to 'http://localhost:8080/login'
+2025-06-03 12:00:31.071 DEBUG 14748 --- [http-nio-8080-exec-1] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:00:31.071 DEBUG 14748 --- [http-nio-8080-exec-1] w.c.HttpSessionSecurityContextRepository : SecurityContext is empty or contents are anonymous - context will not be stored in HttpSession.
+2025-06-03 12:00:31.073 DEBUG 14748 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:00:31.080 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] w.c.HttpSessionSecurityContextRepository : HttpSession returned null object for SPRING_SECURITY_CONTEXT
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: org.apache.catalina.session.StandardSessionFacade@5f74b4ba. A new one will be created.
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:00:31.081 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /login' doesn't match 'POST /logout'
+2025-06-03 12:00:31.082 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:00:31.082 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /login' doesn't match 'POST /login'
+2025-06-03 12:00:31.082 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : /login at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:00:31.084 DEBUG 14748 --- [http-nio-8080-exec-2] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:00:31.084 DEBUG 14748 --- [http-nio-8080-exec-2] w.c.HttpSessionSecurityContextRepository : SecurityContext is empty or contents are anonymous - context will not be stored in HttpSession.
+2025-06-03 12:00:31.084 DEBUG 14748 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:00:59.160 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:00:59.161 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:00:59.161 DEBUG 14748 --- [http-nio-8080-exec-4] w.c.HttpSessionSecurityContextRepository : HttpSession returned null object for SPRING_SECURITY_CONTEXT
+2025-06-03 12:00:59.161 DEBUG 14748 --- [http-nio-8080-exec-4] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: org.apache.catalina.session.StandardSessionFacade@5f74b4ba. A new one will be created.
+2025-06-03 12:00:59.161 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:00:59.163 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:00:59.163 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:00:59.163 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/logout'
+2025-06-03 12:00:59.163 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /login at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:00:59.164 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/login'
+2025-06-03 12:00:59.164 DEBUG 14748 --- [http-nio-8080-exec-4] w.a.UsernamePasswordAuthenticationFilter : Request is to process authentication
+2025-06-03 12:00:59.164 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.s.authentication.ProviderManager     : Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2025-06-03 12:00:59.338 DEBUG 14748 --- [http-nio-8080-exec-4] s.CompositeSessionAuthenticationStrategy : Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@5eb5c39f
+2025-06-03 12:00:59.339 DEBUG 14748 --- [http-nio-8080-exec-4] s.CompositeSessionAuthenticationStrategy : Delegating to org.springframework.security.web.csrf.CsrfAuthenticationStrategy@1f9d8dd3
+2025-06-03 12:00:59.339 DEBUG 14748 --- [http-nio-8080-exec-4] w.a.UsernamePasswordAuthenticationFilter : Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities
+2025-06-03 12:00:59.340 DEBUG 14748 --- [http-nio-8080-exec-4] RequestAwareAuthenticationSuccessHandler : Redirecting to DefaultSavedRequest Url: http://localhost:8080/details
+2025-06-03 12:00:59.340 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.s.web.DefaultRedirectStrategy        : Redirecting to 'http://localhost:8080/details'
+2025-06-03 12:00:59.340 DEBUG 14748 --- [http-nio-8080-exec-4] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:00:59.341 DEBUG 14748 --- [http-nio-8080-exec-4] w.c.HttpSessionSecurityContextRepository : SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@fa794fef: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities' stored to HttpSession: 'org.apache.catalina.session.StandardSessionFacade@5f74b4ba
+2025-06-03 12:00:59.341 DEBUG 14748 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:00:59.345 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] w.c.HttpSessionSecurityContextRepository : Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@fa794fef: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /logout'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:00:59.346 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /login'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/details'; against '/logout'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2025-06-03 12:00:59.347 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : pathInfo: both null (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : queryString: both null (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : requestURI: arg1=/details; arg2=/details (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : serverPort: arg1=8080; arg2=8080 (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : requestURL: arg1=http://localhost:8080/details; arg2=http://localhost:8080/details (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : scheme: arg1=http; arg2=http (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : serverName: arg1=localhost; arg2=localhost (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : contextPath: arg1=; arg2= (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.DefaultSavedRequest            : servletPath: arg1=/details; arg2=/details (property equals)
+2025-06-03 12:00:59.348 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.s.HttpSessionRequestCache        : Removing DefaultSavedRequest from session if present
+2025-06-03 12:00:59.349 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2025-06-03 12:00:59.350 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/health/**']
+2025-06-03 12:00:59.353 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/info/**']
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /details; Attributes: [authenticated]
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@7ec2a2e8, returned: 1
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2025-06-03 12:00:59.354 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2025-06-03 12:00:59.355 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : /details reached end of additional filter chain; proceeding with original chain
+2025-06-03 12:00:59.361 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/details", parameters={}
+2025-06-03 12:00:59.385 DEBUG 14748 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2025-06-03 12:00:59.394 DEBUG 14748 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@6289debe href = 'http://localhost:8080/details'], beans=[Link@7e939190 href = 'h (truncated)...]
+2025-06-03 12:00:59.441 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:00:59.443 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-03 12:00:59.449 DEBUG 14748 --- [http-nio-8080-exec-5] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2025-06-03 12:00:59.450 DEBUG 14748 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:01:35.984 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] w.c.HttpSessionSecurityContextRepository : Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@fa794fef: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /' doesn't match 'POST /logout'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /' doesn't match 'POST /login'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:01:35.986 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/'; against '/logout'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2025-06-03 12:01:35.987 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/health/**']
+2025-06-03 12:01:35.996 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 12:01:35.996 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/info/**']
+2025-06-03 12:01:36.001 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 12:01:36.001 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2025-06-03 12:01:36.001 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /; Attributes: [authenticated]
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@7ec2a2e8, returned: 1
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : / reached end of additional filter chain; proceeding with original chain
+2025-06-03 12:01:36.003 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-06-03 12:01:36.009 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2025-06-03 12:01:36.011 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-06-03 12:01:36.011 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:01:36.011 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-06-03 12:01:36.012 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2025-06-03 12:01:36.012 DEBUG 14748 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] w.c.HttpSessionSecurityContextRepository : Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@fa794fef: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /error' doesn't match 'POST /logout'
+2025-06-03 12:01:36.019 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:01:36.020 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /error' doesn't match 'POST /login'
+2025-06-03 12:01:36.020 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:01:36.020 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2025-06-03 12:01:36.020 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:36.021 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2025-06-03 12:01:36.022 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2025-06-03 12:01:36.022 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2025-06-03 12:01:36.022 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : /error reached end of additional filter chain; proceeding with original chain
+2025-06-03 12:01:36.022 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-06-03 12:01:36.028 DEBUG 14748 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2025-06-03 12:01:36.037 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-06-03 12:01:36.040 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-06-03 12:01:36.041 DEBUG 14748 --- [http-nio-8080-exec-6] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2025-06-03 12:01:36.041 DEBUG 14748 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:01:42.432 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] w.c.HttpSessionSecurityContextRepository : Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@fa794fef: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /logout'
+2025-06-03 12:01:42.433 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /details' doesn't match 'POST /login'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/details'; against '/logout'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2025-06-03 12:01:42.434 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities'
+2025-06-03 12:01:42.435 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2025-06-03 12:01:42.435 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2025-06-03 12:01:42.435 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2025-06-03 12:01:42.435 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/health/**']
+2025-06-03 12:01:42.436 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Mvc [pattern='/details/info/**']
+2025-06-03 12:01:42.436 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2025-06-03 12:01:42.436 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /details; Attributes: [authenticated]
+2025-06-03 12:01:42.437 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fa794fef: Principal: org.springframework.security.core.userdetails.User@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Not granted any authorities; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: BBBB3854D48BD764A266C94AADBB08FC; Not granted any authorities
+2025-06-03 12:01:42.437 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@7ec2a2e8, returned: 1
+2025-06-03 12:01:42.437 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2025-06-03 12:01:42.437 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2025-06-03 12:01:42.437 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /details reached end of additional filter chain; proceeding with original chain
+2025-06-03 12:01:42.438 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/details", parameters={}
+2025-06-03 12:01:42.440 DEBUG 14748 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2025-06-03 12:01:42.440 DEBUG 14748 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{_links={self=[Link@41bf9f76 href = 'http://localhost:8080/details'], beans=[Link@4f786931 href = 'h (truncated)...]
+2025-06-03 12:01:42.441 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@32cb30b7
+2025-06-03 12:01:42.441 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-06-03 12:01:42.443 DEBUG 14748 --- [http-nio-8080-exec-7] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2025-06-03 12:01:42.443 DEBUG 14748 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2025-06-03 12:01:53.978  INFO 14748 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
