@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: LISTING-SERVICE
+  profiles:
+    active: native
+  config:
+    import: 'optional:configserver:http://localhost:8050' #Config Server location
+
+resilience4j:
+  bulkhead:
+    instances:
+      getAllProductsBH:
+        max-concurrent-calls: 5
+        max-wait-duration: 0
+  circuitbreaker:
+    instances:
+      getAllProductsCB:
+        automatic-transition-from-open-to-half-open-enabled: true
+        failure-rate-threshold: 80
+        minimum-number-of-calls: 5
+        permitted-number-of-calls-in-half-open-state: 4
+        sliding-window-size: 10
+        sliding-window-type: COUNT_BASED
+        wait-duration-in-open-state: 10s
+  ratelimiter:
+    instances:
+      getAllProductsRateLimit:
+        limit-for-period: 2
+        limit-refresh-period: 10s
+        timeout-duration: 0
+  retry:
+    instances:
+      getAllProductsRetry:
+        enable-exponential-backoff: true
+        max-attempts: 5
+        retry-exceptions: org.springframework.web.client.ResourceAccessException
+        wait-duration: 2s
+  timelimiter:
+    instances:
+      getAllProductsTL:
+        cancel-running-future: false
+        timeout-duration: 1s
+
+

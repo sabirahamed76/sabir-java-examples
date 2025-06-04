@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sabir_home_db
+    username: postgres
+    password: admin
+app:
+  write:
+    enabled: false
+
+

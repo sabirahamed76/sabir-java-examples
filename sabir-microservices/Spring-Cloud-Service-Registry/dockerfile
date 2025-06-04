@@ -1,0 +1,9 @@
+FROM openjdk:17
+
+ARG JAR_FILE=target/*.jar
+
+COPY ${JAR_FILE} Spring-Cloud-Service-Registry.jar
+
+ENTRYPOINT ["java", "-jar", "/Spring-Cloud-Service-Registry.jar" ]
+
+EXPOSE 8761

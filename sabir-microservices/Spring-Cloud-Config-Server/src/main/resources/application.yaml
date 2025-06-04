@@ -1,0 +1,14 @@
+#To Specify Service Running port
+server:
+  port: 8050
+
+spring:
+  application:
+    name: 'Spring-Cloud-Config-Server' #Name of the Clod Config Server Service
+  profiles:
+    active: native
+  cloud:
+    config:
+      enabled: false #To make this service rely on its local configuration instead of cloud config
+
+

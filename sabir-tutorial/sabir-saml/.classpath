@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/commons-codec-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/emul-0.5.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/javalib_native0.2_2.11-0.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/joda-time-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/org.slf4j.jar"/>
+	<classpathentry kind="lib" path="D:/workstation/workspace-hp/java-saml-2.3.0_JDK6/lib/xmlsec-2.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

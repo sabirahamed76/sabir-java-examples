@@ -1,0 +1,519 @@
+2025-05-15T11:45:01.296+08:00  INFO 21080 --- [main] c.h.s.m.S.SpringCloudCartApplication     : Starting SpringCloudCartApplication using Java 21.0.7 with PID 21080 (D:\workstation\workspace\workspace-java\sabir-microservices\Spring-Cloud-Cart-Service\target\classes started by sabir in D:\workstation\workspace\workspace-java\sabir-microservices\Spring-Cloud-Cart-Service)
+2025-05-15T11:45:01.297+08:00  INFO 21080 --- [main] c.h.s.m.S.SpringCloudCartApplication     : The following 1 profile is active: "native"
+2025-05-15T11:45:01.330+08:00  INFO 21080 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8088
+2025-05-15T11:45:01.330+08:00  INFO 21080 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=CART-SERVICE, profiles=[native], label=null, version=null, state=null
+2025-05-15T11:45:02.145+08:00  INFO 21080 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=90fcce8f-9261-368e-a801-b0dc1928ac8b
+2025-05-15T11:45:02.197+08:00  INFO 21080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-15T11:45:02.199+08:00  INFO 21080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-15T11:45:02.200+08:00  INFO 21080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-15T11:45:02.372+08:00  INFO 21080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2025-05-15T11:45:02.379+08:00  INFO 21080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-15T11:45:02.379+08:00  INFO 21080 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2025-05-15T11:45:02.466+08:00  INFO 21080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-15T11:45:02.467+08:00  INFO 21080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
+2025-05-15T11:45:03.391+08:00  INFO 21080 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-05-15T11:45:03.422+08:00  WARN 21080 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-15T11:45:03.429+08:00  INFO 21080 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-05-15T11:45:03.485+08:00  INFO 21080 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-05-15T11:45:03.514+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-15T11:45:03.518+08:00  INFO 21080 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T11:45:03.519+08:00 DEBUG 21080 --- [main] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T11:45:03.520+08:00 DEBUG 21080 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:45:03.520+08:00 DEBUG 21080 --- [main] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:45:03.535+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-05-15T11:45:03.536+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-05-15T11:45:03.536+08:00 DEBUG 21080 --- [main] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-15T11:45:03.777+08:00 DEBUG 21080 --- [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-15T11:45:03.778+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-05-15T11:45:03.779+08:00 DEBUG 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Got full registry with apps hashcode UP_1_
+2025-05-15T11:45:03.780+08:00 DEBUG 21080 --- [main] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 1
+2025-05-15T11:45:03.780+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-05-15T11:45:03.783+08:00  INFO 21080 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-15T11:45:03.787+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1747280703786 with initial instances count: 1
+2025-05-15T11:45:03.789+08:00  INFO 21080 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CART-SERVICE with eureka with status UP
+2025-05-15T11:45:03.790+08:00  INFO 21080 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1747280703790, current=UP, previous=STARTING]
+2025-05-15T11:45:03.790+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Executing on-demand update of local InstanceInfo
+2025-05-15T11:45:03.790+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+2025-05-15T11:45:03.791+08:00  INFO 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084: registering service...
+2025-05-15T11:45:03.791+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-15T11:45:03.809+08:00  INFO 21080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2025-05-15T11:45:03.810+08:00  INFO 21080 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2025-05-15T11:45:03.826+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-15T11:45:03.826+08:00  INFO 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - registration status: 204
+2025-05-15T11:45:03.828+08:00  INFO 21080 --- [main] c.h.s.m.S.SpringCloudCartApplication     : Started SpringCloudCartApplication in 3.245 seconds (process running for 3.798)
+2025-05-15T11:45:04.357+08:00  INFO 21080 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-15T11:45:04.358+08:00  INFO 21080 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-15T11:45:04.359+08:00  INFO 21080 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-15T11:45:33.802+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:45:33.804+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:45:33.805+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:45:33.805+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:45:33.805+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:45:33.806+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:45:33.806+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:46:03.824+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:46:03.840+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:46:03.841+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:46:03.841+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:46:03.841+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:46:03.841+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:46:03.841+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:46:33.848+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:46:33.864+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:46:33.864+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:46:33.864+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:46:33.864+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:46:33.865+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:46:33.865+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:47:03.879+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:47:03.896+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:47:33.914+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:47:33.929+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:47:33.929+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:47:33.929+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:47:33.930+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:47:33.930+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:47:33.930+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:48:03.936+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:48:03.953+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:48:33.958+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:API-GATEWAY:8060 to the existing apps in region null
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Added instance host.docker.internal:CART-SERVICE:8084 to the existing apps in region null
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 2
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:48:33.974+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:49:03.982+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:49:03.995+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:49:03.995+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:49:03.997+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:49:03.997+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:49:34.006+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:49:34.019+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:49:34.019+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:49:34.019+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:49:34.019+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:50:03.548+08:00  INFO 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T11:50:03.549+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T11:50:03.549+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:50:03.549+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:50:03.549+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:50:04.039+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:50:04.053+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:50:04.053+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:50:04.055+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:50:04.055+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:50:34.074+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:50:34.086+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:50:34.086+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:50:34.087+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:50:34.087+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:51:04.108+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:51:04.108+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:51:04.108+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:51:04.109+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:51:04.109+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:51:34.147+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:51:34.149+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:51:34.149+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:51:34.150+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:51:34.151+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:52:04.181+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:52:04.182+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:52:04.182+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:52:04.182+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:52:04.183+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:52:34.207+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:52:34.225+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:52:34.226+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:52:34.227+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:52:34.228+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:53:04.247+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:53:04.265+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:53:04.265+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:53:04.266+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:53:04.267+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:53:34.287+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:53:34.303+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:53:34.305+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:53:34.305+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:53:34.305+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:54:04.314+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:54:04.331+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:54:04.332+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:54:04.332+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:54:04.333+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:54:34.350+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:54:34.367+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:54:34.367+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:54:34.368+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:54:34.369+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:55:03.554+08:00  INFO 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T11:55:03.554+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T11:55:03.555+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:55:03.555+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:55:03.555+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T11:55:04.383+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:55:04.403+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:55:04.404+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:55:04.405+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:55:04.405+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:55:34.416+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:55:34.432+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:55:34.432+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:55:34.433+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:55:34.433+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:56:04.439+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-15T11:56:04.449+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:56:04.515+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-15T11:56:04.516+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:56:04.516+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:56:04.517+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:56:04.517+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:56:34.477+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:56:34.540+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:56:34.540+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:56:34.541+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:56:34.541+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:57:04.507+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:57:04.567+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:57:04.567+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:57:04.568+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:57:04.568+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:57:34.545+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:57:34.600+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:57:34.600+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:57:34.600+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:57:34.601+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:58:04.579+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:58:04.627+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:58:04.627+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:58:04.627+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:58:04.627+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:58:34.612+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:58:34.659+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:58:34.659+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:58:34.659+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:58:34.659+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:59:04.637+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:59:04.681+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:59:04.681+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:59:04.681+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:59:04.682+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T11:59:34.657+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T11:59:34.704+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T11:59:34.704+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T11:59:34.705+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T11:59:34.705+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:00:03.564+08:00  INFO 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T12:00:03.565+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T12:00:03.566+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:00:03.566+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:00:03.566+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:00:04.693+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:00:04.735+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:00:04.735+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:00:04.736+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:00:04.736+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:00:34.730+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:00:34.761+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:00:34.762+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:00:34.762+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:00:34.763+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:01:04.766+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:01:04.783+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:01:04.783+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:01:04.784+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:01:04.784+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:01:34.794+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:01:34.808+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:01:34.809+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:01:34.809+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:01:34.809+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:02:04.815+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:02:04.833+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:02:04.833+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:02:04.834+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:02:04.834+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:02:34.840+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:02:34.857+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:02:34.857+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:02:34.858+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:02:34.859+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:03:04.878+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:03:04.890+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:03:04.890+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:03:04.890+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:03:04.890+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:03:19.206+08:00  WARN 21080 --- [http-nio-8084-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2025-05-15T12:03:34.913+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:03:34.930+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:03:34.930+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:03:34.931+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:03:34.931+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:04:04.946+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:04:04.962+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:04:04.962+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:04:04.963+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:04:04.964+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:04:34.981+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:04:34.999+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:04:34.999+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:04:34.999+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:04:35.000+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:05:03.577+08:00  INFO 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T12:05:03.577+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T12:05:03.577+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:05:03.577+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:05:03.578+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:05:05.012+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:05:05.025+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:05:05.025+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:05:05.025+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:05:05.025+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:05:35.040+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:05:35.055+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:05:35.055+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:05:35.056+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:05:35.056+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:06:05.065+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:06:05.080+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:06:05.080+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:06:05.080+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:06:05.080+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:06:35.099+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:06:35.114+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:06:35.114+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:06:35.114+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:06:35.115+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:07:05.128+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:07:05.139+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:07:05.139+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:07:05.139+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:07:05.139+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:07:35.160+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:07:35.172+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:07:35.172+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:07:35.173+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:07:35.173+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:08:05.195+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:08:05.213+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:08:05.213+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:08:05.214+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:08:05.214+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:08:35.225+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:08:35.242+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:08:35.242+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:08:35.243+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:08:35.243+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:09:05.260+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:09:05.276+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:09:05.277+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:09:05.277+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:09:05.278+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:09:35.288+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-15T12:09:35.295+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:09:35.350+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-15T12:09:35.350+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:09:35.350+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:09:35.351+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:09:35.351+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:10:03.586+08:00  INFO 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-15T12:10:03.586+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.discovery.endpoint.EndpointUtils     : The availability zone for the given region us-east-1 are [defaultZone]
+2025-05-15T12:10:03.586+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:10:03.586+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ZoneAffinityClusterResolver  : Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:10:03.586+08:00 DEBUG 21080 --- [AsyncResolver-bootstrap-executor-0] c.n.d.shared.resolver.AsyncResolver      : Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+2025-05-15T12:10:05.320+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:10:05.385+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:10:05.385+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:10:05.385+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:10:05.386+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:10:35.341+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:10:35.419+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:10:35.419+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:10:35.419+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:10:35.419+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:11:05.365+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:11:05.444+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:11:05.444+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:11:05.445+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:11:05.445+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:11:35.400+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:11:35.477+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:11:35.477+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:11:35.478+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:11:35.478+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:12:05.433+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:12:05.513+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:12:05.513+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:12:05.514+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:12:05.514+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:12:35.448+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.SessionedEurekaHttpClient    : Ending a session and starting anew
+2025-05-15T12:12:35.496+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Pinning to endpoint null
+2025-05-15T12:12:35.496+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:12:35.549+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:12:35.549+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:12:35.550+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:12:35.551+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:13:05.522+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:13:05.585+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:13:05.585+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:13:05.586+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:13:05.586+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:13:35.554+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:13:35.615+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:13:35.616+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:13:35.617+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:13:35.617+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:14:05.587+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:14:05.650+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:14:05.650+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:14:05.651+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:14:05.651+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:14:35.610+08:00 DEBUG 21080 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - Heartbeat status: 200
+2025-05-15T12:14:35.686+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Got delta update with apps hashcode UP_2_
+2025-05-15T12:14:35.687+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of instances fetched by the delta processor : 0
+2025-05-15T12:14:35.687+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The total number of all instances in the client now is 2
+2025-05-15T12:14:35.688+08:00 DEBUG 21080 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-05-15T12:14:40.023+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-15T12:14:40.023+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CART-SERVICE with eureka with status DOWN
+2025-05-15T12:14:40.023+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1747282480023, current=DOWN, previous=UP]
+2025-05-15T12:14:40.024+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Executing on-demand update of local InstanceInfo
+2025-05-15T12:14:40.024+08:00 DEBUG 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+2025-05-15T12:14:40.024+08:00  INFO 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084: registering service...
+2025-05-15T12:14:40.029+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-15T12:14:40.030+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [boundedElastic-evictor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender@3233b8df}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.035+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.036+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.036+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.036+08:00  WARN 21080 --- [RMI TCP Connection(37)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [reactor-http-nio-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+ io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-15T12:14:40.044+08:00  INFO 21080 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - registration status: 204
+2025-05-15T12:14:42.380+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-05-15T12:14:45.392+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-05-15T12:14:45.412+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CART-SERVICE/host.docker.internal:CART-SERVICE:8084 - deregister  status: 200
+2025-05-15T12:14:45.418+08:00  INFO 21080 --- [RMI TCP Connection(37)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

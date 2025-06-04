@@ -1,0 +1,32 @@
+#To Specify Service Running port
+server:
+  address: 0.0.0.0
+  port: 8088
+
+#To Register with Service Registry
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#for zipkin
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  
+#For Logging
+logging:
+  file:
+    name: order-service.log
+  level:
+    com:
+      netflix:
+        eureka: DEBUG
+        discovery: DEBUG
+
+#Jeager Configuration
+otel:
+  exporter:
+    jaeger:
+      endpoint: http://localhost:14250
