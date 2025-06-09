@@ -45,7 +45,7 @@ public class AnonymousClassDemo {
        };
        welcomeClass.sayWelcome();
 
-       //Anonymous class without implementing Functional interface
+       //Anonymous Function without implementing Functional interface
        GreetingFunctionalInterface greetingFunctionalInterface = () -> System.out.println("Hello from an anonymous Functional Interface!");
        greetingFunctionalInterface.sayGreeting();
 
