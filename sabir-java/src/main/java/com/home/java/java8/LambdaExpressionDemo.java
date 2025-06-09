@@ -4,6 +4,8 @@ package com.home.java.java8;
  *
  */
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /*
@@ -56,6 +58,31 @@ interface MathOperation {
 
  }
 
+class Fruit {
+	public String name;
+	public Double price;
+
+	public Fruit(String name, Double price) {
+		this.name = name;
+		this.price = price;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double age) {
+		this.price = age;
+	}
+}
 //Anonymous method means no method name
 //no return type
 //no access modifier
@@ -69,31 +96,33 @@ public class LambdaExpressionDemo {
 
 		//Normal way of calling the abstract method
 		GreetingService greetService = new GreetingServiceImpl();
-		System.out.println("Calling by implementing interface into a class and create a object and invoke the method");
+		System.out.println("Normal Way of Calling by implementing interface into a class and create a object and invoke the method");
 		greetService.sayMessage("Sabeer");
 		greetService.defaultPrint();
 		System.out.println("");
 
-		//Calling abstract method implemented in Lambda
-	    GreetingService greetServiceLambda = message -> System.out.print("Hello " + message);
-	    System.out.println("Calling abstract method implemented in Lambda");
+		//1 Lambda with Functional Interface for Anonymous Function
+		//Calling abstract method using Lambda// System.out.println("=================================================");
+	    System.out.println("1 Lambda with Functional Interface for Anonymous Function so Calling abstract method directly using Lambda");
+		System.out.println("=================================================");
+		GreetingService greetServiceLambda = message -> System.out.print("Hello " + message);
 		greetServiceLambda.sayMessage("Ahamed");
 		System.out.println("");
 		greetServiceLambda.defaultPrint();//Method implementation inside interface rather implementation class
 		GreetingService.staticPrint();//Static Method implementation inside interface so object directly calls
-	    System.out.println("=============");
+	    System.out.println("----------------------------------------");
 	    
 	    //with type declaration anonymous function by lambda
-	    MathOperation addition = (int a, int b) -> a + b;
+	    MathOperation addition = (int a, int b) -> { return a + b;};
 			
 	    //with out type declaration anonymous function by lambda
-	    MathOperation subtraction = (a, b) -> a - b;
+	    MathOperation subtraction = (a, b) -> { return a - b;};
 			
 	    //with return statement along with curly braces anonymous function by lambda
-	    MathOperation multiplication = (int a, int b) -> { return a * b; };
+	    MathOperation multiplication = ( a,  b) -> { return a * b; };
 			
 	    //without return statement and without curly braces anonymous function by lambda
-	    MathOperation division = (int a, int b) -> a / b;
+	    MathOperation division = ( a,  b) -> a / b;
 	    
 
 		//Create local object and call method to pass the Interface object 
@@ -103,7 +132,7 @@ public class LambdaExpressionDemo {
 	    System.out.println("10 - 5 = " + tester.operate(10, 5, subtraction));
 	    System.out.println("10 x 5 = " + tester.operate(10, 5, multiplication));
 	    System.out.println("10 / 5 = " + tester.operate(10, 5, division));
-		System.out.println("=============");
+		System.out.println("----------------------------------------------");
 
 		 //Calling directly the objects method where implementation in lambda expression
 		 System.out.println("Calling directly the objects method where implementation in lambda expression");
@@ -111,31 +140,40 @@ public class LambdaExpressionDemo {
 		 System.out.println("10 - 5 = " + subtraction.operation(10,5));
 		 System.out.println("10 * 5 = " + multiplication.operation(10,5));
 		 System.out.println("10 / 5 = " + division.operation(10,5));
-		 System.out.println("=============");
+		 System.out.println("");
 
 
-		 //Another Lambda Example
-	     List<String> names = new ArrayList<>();
-	      names.add("Mahesh");
-	      names.add("Suresh");
-	      names.add("Ramesh");
-	      names.add("Naresh");
-	      names.add("Kalpesh");
+		 //2 Lambda with Collections
 
-	      System.out.println("Printing using for each loop");
-	      // Approach 1: for loop to print all elements
-	      for (String name: names) {
-	         System.out.println(name);
-	      }
+		 System.out.println("=================================================");
+		 System.out.println("2 Lambda with Collections");
+		 System.out.println("=================================================");
+		 List<Fruit> fruits = new ArrayList<Fruit>();
+		 fruits.add(new Fruit("Mango",12.5));
+		 fruits.add(new Fruit("Date",5.0));
+		 fruits.add(new Fruit("Avacado",10.0));
+		 fruits.add(new Fruit("JackFruit",3.50));
+		 fruits.add(new Fruit("DragonFruit",3.0));
+		 fruits.add(new Fruit("Apple",5.0));
+		 fruits.add(new Fruit("Apple",1.50));
+		 fruits.add(new Fruit("Durian",10.0));
+		 fruits.add(new Fruit("Orange",5.0));
+		 fruits.add(new Fruit("Banana",4.0));
+		 System.out.println("Sort and Print using for each loop with lambda expression");
+		 //fruits.sort((f1, f2) -> f1.name.compareTo(f2.name));
 
-	      System.out.println("Printing using for each loop with lambda expression");
-	      // Approach 2: lambda expression to print the elements in for each loop
-	      names.forEach(name->System.out.println(name));
+		 fruits.sort(Comparator.comparing(Fruit::getName).thenComparing(Fruit::getPrice));
+		 fruits.forEach(fruit->System.out.println(fruit.name+"........"+fruit.price));
 
-	      System.out.println("Printing using for each loop with method reference" );
-	      // Approach 3: Method reference to print elements in for each loop
-	      names.forEach(System.out::println);
-	      
+		 //3 Lambda with Stream
+		 System.out.println("=================================================");
+		 System.out.println("3 Lambda with Stream");
+		 System.out.println("=================================================");
+		 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+		 numbers.stream()
+				 .filter(n -> n % 2 == 0)
+				 .forEach(System.out::println); // Prints even numbers
+	
 	 }
 	
 	 

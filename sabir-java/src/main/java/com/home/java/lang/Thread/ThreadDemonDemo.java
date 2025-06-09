@@ -7,9 +7,9 @@ The life of a daemon thread depends on the mercy of user threads,
 meaning that when all user threads finish their execution, 
 the Java Virtual Machine (JVM) automatically terminates the daemon thread.*/
 
-public class ThreadDemon extends Thread
+public class ThreadDemonDemo extends Thread
 {
-	public ThreadDemon(String name){
+	public ThreadDemonDemo(String name){
 		super(name);
 	}
 
@@ -30,9 +30,9 @@ public class ThreadDemon extends Thread
 	public static void main(String[] args)
 	{
 	
-		ThreadDemon t1 = new ThreadDemon("t1");
-		ThreadDemon t2 = new ThreadDemon("t2");
-		ThreadDemon t3 = new ThreadDemon("t3");
+		ThreadDemonDemo t1 = new ThreadDemonDemo("t1");
+		ThreadDemonDemo t2 = new ThreadDemonDemo("t2");
+		ThreadDemonDemo t3 = new ThreadDemonDemo("t3");
 	
 		// Setting user thread t1 to Daemon
 		t1.setDaemon(true);

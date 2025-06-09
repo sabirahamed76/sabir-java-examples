@@ -64,8 +64,8 @@ public class ComparatorComparableDemo {
 		   User u10= new User("ahmed", 8);
 		   User u11= new User("ahmed", 5);
 	      userList.add(u1);
-		   userList.add(u10);
-		   userList.add(u11);
+		  userList.add(u10);
+		  userList.add(u11);
 		  userList.add(u9);
 		  userList.add(u5);
 		  userList.add(u7);
@@ -75,17 +75,8 @@ public class ComparatorComparableDemo {
 		  userList.add(u3);
 		  userList.add(u2);
 
-
-	      
-	       System.out.println();
-	       System.out.println("Sorted by name, age: by Comparator Interface");
-		   //Collections.sort(userList, new User());
-		   userList.sort(Comparator.comparing(User::getName).thenComparing(User::getAge));
-	;	   userList.forEach(System.out::println);
-
-
 		   System.out.println();
-		   System.out.println("Sorted by name: by Comparable Interface");
+		   System.out.println("Sorting can be done one column by name: using Comparable Interface");
 		   Collections.sort(userList);   // Sorts the array userList
 		   System.out.println("Compareto: " + u7.compareTo(u1));
 		   // printing the sorted userList of names
@@ -93,6 +84,11 @@ public class ComparatorComparableDemo {
 		   userList.forEach(System.out::println);
 
 
+	       System.out.println();
+	       System.out.println("Sorting can be done multiple column by name, age: using Comparator Interface");
+		   //Collections.sort(userList, new User());
+		   userList.sort(Comparator.comparing(User::getName).thenComparing(User::getAge));
+		   userList.forEach(System.out::println);
 
 		   System.out.println(" ");
 	      
