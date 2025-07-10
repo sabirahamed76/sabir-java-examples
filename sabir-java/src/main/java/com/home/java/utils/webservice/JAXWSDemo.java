@@ -1,4 +1,4 @@
-package com.home.java.webservice;
+package com.home.java.utils.webservice;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;

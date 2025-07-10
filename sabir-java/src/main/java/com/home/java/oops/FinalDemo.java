@@ -7,7 +7,7 @@
  * and open the template in the editor.
  */
 
-package com.home.java.core;
+package com.home.java.oops;
 
 /**
  *

@@ -1,11 +1,10 @@
-package com.home.java.core;
+package com.home.java.oops;
 
 
 class Outer_Demo {
-	   int num;
-	   
-	   // inner class
-	   private class Inner_Demo {
+
+	// inner class
+	   private static class Inner_Demo {
 	      public void print() {
 	         System.out.println("This is an inner class");
 	      }
@@ -20,7 +19,7 @@ class Outer_Demo {
 	   
 	public class InnerClassDemo {
 
-	   public static void main(String args[]) {
+	   public static void main(String[] args) {
 	      // Instantiating the outer class 
 	      Outer_Demo outer = new Outer_Demo();
 	      

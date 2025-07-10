@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/order-orchestrator/order-orchestrator.iml" filepath="$PROJECT_DIR$/order-orchestrator/order-orchestrator.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment-service/payment-service.iml" filepath="$PROJECT_DIR$/payment-service/payment-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sabir-saga-orchestration.iml" filepath="$PROJECT_DIR$/sabir-saga-orchestration.iml" />
     </modules>
   </component>
 </project>

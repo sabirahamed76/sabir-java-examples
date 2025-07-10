@@ -251,8 +251,8 @@ public class OperatorDemo {
     strMsg += "  equals(), if overridden by the class, tests the value of." + "\n";
     strMsg += "  Object.equals() and '==' test the same thing!" + "\n";
 
-    Boolean b1 = new Boolean(true);
-    Boolean b2 = new Boolean(true);
+    Boolean b1 = Boolean.valueOf(true);
+    Boolean b2 = Boolean.valueOf(true);
     strMsg += "  * b1.equals( b2 ) = " + ( b1.equals( b2 ) ) + "\n";
     strMsg += "  * b1 == b2        = " + ( b1 == b2 )        + "\n";
     Object  b3 = (Object) b2;  //Warning, this is tricky !!!
@@ -298,7 +298,7 @@ public class OperatorDemo {
    // strMsg += "  * subclass: this instanceof Applet = "+
     //          (this instanceof java.applet.Applet) + "\n";
     strMsg += "  * subclass: y instanceof Number = "+
-              ((new Integer(5)) instanceof Number) + "\n";
+              ((Integer.valueOf(5)) instanceof Number) + "\n";
 
     return strMsg;
   }
