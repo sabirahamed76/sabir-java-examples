@@ -13,48 +13,55 @@ package com.home.java.core;
  *
  * @author siddisab
  */
-class CallByValue {
+class Sample {
     int a;
     int b;
     
-    CallByValue(int a,int b){
+    public void setByValue(int a,int b){
         a=a;
         b=b;
     }
-   
-    void meth() {
+
+    public void setByReference(int a, int b){
+        this.a=a;
+        this.b=b;
+    }
+
+
+    public int getA() {
         a++;
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getB() {
         b--;
+        return b;
     }
-}   
-class CallByReference {
-    int a;
-    int b;
-    
-    CallByReference(int i,int j){
-        this.a=i;
-        this.b=j;
+
+    public void setB(int b) {
+        this.b = b;
     }
-    
-    void meth() {
-        a++;
-        b--;
-    }
-} 
+
+}
 public class CallByDemo {
     public static void main(String args[]) {
         int a = 10, b = 20;
-        
-        System.out.println("-----Call By Value-----");
-        CallByValue ob = new CallByValue(a,b);
+        Sample ob = new Sample();
+
+        System.out.println("-----Set By Value-----");
         System.out.println("a and b before call: " + a + " " + b);
-        ob.meth();
-        System.out.println("a and b after call: " + ob.a + " " + ob.b);
-        
-        System.out.println("-----Call By Reference-----");
-        CallByReference ob1 = new CallByReference(a,b);
+        ob.setByValue(a,b);
+        System.out.println("a and b after call: " + ob.getA() + " " + ob.getB());
+
+        System.out.println("-----Set By Reference-----");
         System.out.println("a and b before call: " + a + " " + b);
-        ob1.meth();
-        System.out.println("a and b after call: " + ob1.a + " " + ob1.b);
+        ob.setByReference(a,b);
+        System.out.println("a and b after call: " + ob.getA() + " " + ob.getB());
+
+
     }
 }

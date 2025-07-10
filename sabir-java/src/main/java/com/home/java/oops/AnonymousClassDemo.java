@@ -1,4 +1,4 @@
-package com.home.java.core;
+package com.home.java.oops;
 
 interface GreetingNormalInterace {
     void sayGreeting();

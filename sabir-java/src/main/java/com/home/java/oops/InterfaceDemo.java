@@ -9,26 +9,23 @@
 
 package com.home.java.oops;
 
-interface Vehicle {
+interface Vehicle1 {
 	public String Car="Car";
 	public String MotorCycle="Motorcycle";
 	public String defaultMotorcycleFuelType="ELECTRIC";
 	public String defaultCarFuelType="PETROL";
-	
-    void run(String fuelType);
-    
-    //This Method applicable from Java 9    
-	/*
-	 * private String getVehicleName(Integer i) {
-	 *  if (i==4) 
-	 *  	return Car;
-	*   else 
-	*   	return MotorCycle; 
-	 * }
-	 */
+	void run(String fuelType);
+
+	private String getVehicleName(Integer i) {
+	   if (i==4)
+		return Car;
+	   else
+		return MotorCycle;
+	}
+
 }
 
-class Car implements Vehicle {
+class Car1 implements Vehicle1 {
 	private Integer wheelsCount=4;
 	public String maxSpeed="200 KM";
 	public String fuelType=null;
@@ -50,7 +47,7 @@ class Car implements Vehicle {
 	}
 }
 
-class Motorcycle implements Vehicle {
+class Motorcycle1 implements Vehicle1 {
 	private Integer wheelsCount=2;
 	public String maxSpeed="100 KM";
 	public String fuelType=null;
@@ -76,28 +73,29 @@ public class InterfaceDemo {
     
   public static void main(String args[]) {
 	  
-	  	Vehicle car = new Car();         
+	  	Vehicle1 car = new Car1();
 	  	
-        Vehicle motorCycle = new Motorcycle();
+        Vehicle1 motorCycle = new Motorcycle1();
         
         tryout(car);
         System.out.println("===========================================================================");
         tryout(motorCycle);
       }
 
-  private static void tryout(Vehicle vehicle) {
+  private static void tryout(Vehicle1 vehicle) {
 	  
 	  vehicle.run(null);
-	  if (vehicle instanceof Car)	{	   
-		  Car car=(Car) vehicle;
+	  if (vehicle instanceof Car1)	{
+		  Car1 car=(Car1) vehicle;
 		  car.brandName="TOYOTA";
 		  System.out.println("Brand Name="+car.brandName);
 		  System.out.println("Viper Count="+car.getViperCount());
-	  }else if (vehicle instanceof Motorcycle)	{
-		  Motorcycle motorCycle=(Motorcycle) vehicle;
+	  }else if (vehicle instanceof Motorcycle1)	{
+		  Motorcycle1 motorCycle=(Motorcycle1) vehicle;
 		  motorCycle.brandName="HONDA";
 		  System.out.println("Brand Name="+motorCycle.brandName);
-		  System.out.println("Side Stand="+motorCycle.isSideStand());		  
+		  System.out.println("Side Stand="+motorCycle.isSideStand());
+
 	  }
   }
     

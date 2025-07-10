@@ -1,4 +1,4 @@
-package com.home.java.core;
+package com.home.java.oops;
 
 
 //Method Name and Same as Class Name

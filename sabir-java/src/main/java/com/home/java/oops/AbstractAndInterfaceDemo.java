@@ -1,7 +1,7 @@
-package com.home.java.core;
+package com.home.java.oops;
 
 
-abstract class Shape{
+abstract class Shape2{
     public abstract void draw();
 
     public String display(){
@@ -9,13 +9,13 @@ abstract class Shape{
     }
 }
 
-class Round extends Shape{
+class Round2 extends Shape2{
     public void draw(){
         System.out.println("Round is drawing");
     }
 }
 
-class Square extends Shape{
+class Square2 extends Shape2{
     public void draw(){
         System.out.println("Square is drawing");
     }
@@ -24,7 +24,7 @@ class Square extends Shape{
 
 //All methods need to be overridden in implemented class
 //Multiple interfaces can be implemented in class multiple inheritance
-interface Vehicle1{
+interface Vehicle2{
     public void run();
 
     default void display(){
@@ -32,13 +32,13 @@ interface Vehicle1{
     }
 }
 
-class Car implements Vehicle1{
+class Car2 implements Vehicle2{
     public void run(){
         System.out.println("Car is running");
     }
 }
 
-class Bike implements Vehicle1{
+class Bike2 implements Vehicle2{
     public void run(){
         System.out.println("Bike is running");
     }
@@ -51,17 +51,17 @@ public class AbstractAndInterfaceDemo {
         System.out.println("===============================");
         System.out.println("Abstract Class Demo");
         System.out.println("===============================");
-        Shape s1= new Round();
-        Shape s2 = new Square();
-        if (s1 instanceof Round){
+        Shape2 s1= new Round2();
+        Shape2 s2 = new Square2();
+        if (s1 instanceof Round2){
             System.out.println(s1.display()+" Round");
-        }else if (s1 instanceof Square){
+        }else if (s1 instanceof Square2){
             System.out.println(s1.display()+" Square");
         }
         s1.draw();
-        if (s2 instanceof Round){
+        if (s2 instanceof Round2){
             System.out.println(s2.display()+" Round");
-        }else if (s2 instanceof Square){
+        }else if (s2 instanceof Square2){
             System.out.println(s2.display()+" Square");
         }
         s2.draw();
@@ -69,8 +69,8 @@ public class AbstractAndInterfaceDemo {
         System.out.println("===============================");
         System.out.println("Interface Demo");
         System.out.println("===============================");
-        Vehicle1 v1= new Car();
-        Vehicle1 v2= new Bike();
+        Vehicle2 v1= new Car2();
+        Vehicle2 v2= new Bike2();
         v1.run();
         v2.run();
 

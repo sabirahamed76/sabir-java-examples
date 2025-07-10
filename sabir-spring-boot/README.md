@@ -7,8 +7,7 @@ Topics
 Hibernate
 
 Spring
-	- AOP
-	
+
 	- BeanHooks
 	
 	- BeanScope
