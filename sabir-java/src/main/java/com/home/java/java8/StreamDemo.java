@@ -49,7 +49,21 @@ public class StreamDemo {
 	
 	
 	public static void main(String[] args) {
+        //Convert primitive int array to List<Integer>
+        int[] arr1 = {1, 2, 3};
+        List<Integer> list1 = Arrays.stream(arr)
+                .boxed()
+                .collect(Collectors.toList());
+        int[] my_array1 = list1.stream()
+                .mapToInt(Integer::intValue)
+                .toArray();
 
+        //Convert IntegerArray to List<Integer>
+        Integer[] arr2 = {1, 2, 3};
+        List<Integer> list2 = Arrays.asList(arr);
+        Integer[] my_array2= list2.stream()
+                .map(Integer::valueOf)
+                .toArray(Integer[]::new);
         streamDemo4List();
 
         streamDemo4Map();
@@ -375,7 +389,7 @@ public class StreamDemo {
         System.out.println("==========================");
         System.out.println("Use stream to find min:");
         Product productB = productsList.stream()
-            .max((product1, product2) -> product1.getPrice() < product2.getPrice() ? 1 : -1)
+            .min((product1, product2) -> product1.getPrice() < product2.getPrice() ? 1 : -1)
             .get();
         System.out.println(productB.getPrice());
         

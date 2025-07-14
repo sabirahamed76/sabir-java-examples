@@ -16,7 +16,7 @@ class User implements Comparator<User>, Comparable<User> {
 	User(String n, int a) {
 	      name = n;
 	      age = a;
-	   }
+	}
 
 	   public String getName() {
 	      return name;
@@ -26,17 +26,21 @@ class User implements Comparator<User>, Comparable<User> {
 	      return age;
 	   }
 	   
-	   // Overriding the compareTo method to sort the age from java.lang.Comparable Class
+	   // Overriding the compareTo method to sort the name from java.lang.Comparable Class
 	   @Override
 	   public int compareTo(User u) {
 	      return (this.name).compareTo(u.name);
 	   }
 	   
-	   // Overriding the compare method from java.util.Comparator Class
+	   // Overriding the compare method to sort name and age from java.util.Comparator Class
 	   	@Override
 		public int compare(User u1, User u2) {
-			int nameCompare = u1.name.compareTo(u2.name);
-			return (nameCompare != 0) ? nameCompare : Integer.compare(u1.age, u2.age);
+			int nameCompare = u1.getName().compareTo(u2.getName());
+			if (nameCompare != 0) {
+				return nameCompare;
+			} else {
+				return Integer.compare(u1.getAge(), u2.getAge());
+			}
 		}
 
 	   @Override
@@ -63,17 +67,18 @@ public class ComparatorComparableDemo {
 		   User u9= new User("ahaamed", 7);
 		   User u10= new User("ahmed", 8);
 		   User u11= new User("ahmed", 5);
-	      userList.add(u1);
-		  userList.add(u10);
-		  userList.add(u11);
-		  userList.add(u9);
-		  userList.add(u5);
-		  userList.add(u7);
-		  userList.add(u8);
-	      userList.add(u4);
-		  userList.add(u6);
-		  userList.add(u3);
-		  userList.add(u2);
+
+	       userList.add(u1);
+		   userList.add(u10);
+		   userList.add(u11);
+		   userList.add(u9);
+		   userList.add(u5);
+		   userList.add(u7);
+		   userList.add(u8);
+	       userList.add(u4);
+		   userList.add(u6);
+		   userList.add(u3);
+		   userList.add(u2);
 
 		   System.out.println();
 		   System.out.println("Sorting can be done one column by name: using Comparable Interface");
