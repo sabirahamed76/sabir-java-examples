@@ -2,6 +2,11 @@ package com.home.java.designpattern.structural;
 
 public class DecoratorDemo {
 	public static void main(String[] args) {
+		Car basicCar = new BasicCar();
+		basicCar.assemble();
+		System.out.println("\n*****");
+
+
 		Car sportsCar = new SportsCar(new BasicCar());
 		sportsCar.assemble();
 		System.out.println("\n*****");

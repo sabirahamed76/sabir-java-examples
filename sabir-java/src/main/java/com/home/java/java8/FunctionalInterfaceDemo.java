@@ -88,9 +88,7 @@ public class FunctionalInterfaceDemo {
     public static void main(String[] args) {
     	//Custom Function Interface using lambda expression without implementing in class
         System.out.println("................................Custom functional Interface................................");
-        FunctionInterfaceCustom customInterface = (msg) -> {
-            System.out.println(msg);
-        };
+        FunctionInterfaceCustom customInterface = (msg) -> {  System.out.println(msg);   };
         customInterface.say("printing by lambda expression");
         customInterface.display1(); //calling default method
         FunctionInterfaceCustom.display2(); // calling static method
@@ -106,9 +104,9 @@ public class FunctionalInterfaceDemo {
         Predicate<Integer> predicateIsEven = num -> num % 2 == 0;
         System.out.println("Checking 4 is Even or not: " + predicateIsEven.test(4)); // Output: true
         //Predicate Chaining
-        Predicate<Integer> predicateGreaterThanTen = num -> num > 10;
-        Predicate<Integer> predicateLessThanTwenty = num -> num < 20;
-        Predicate<Integer> predicateBetweenTenAndTwenty = predicateGreaterThanTen.and(predicateLessThanTwenty);
+        Predicate<Integer> p1 = num -> num > 10;
+        Predicate<Integer> p2 = num -> num < 20;
+        Predicate<Integer> predicateBetweenTenAndTwenty = p1.and(p2);
         System.out.println("Checking 15 is between 10 and 20: "+ predicateBetweenTenAndTwenty.test(15)); // Output: true
         //Predicate by checking Object
         Predicate <Employee> predicate = (employee) -> employee.getAge() > 28;
